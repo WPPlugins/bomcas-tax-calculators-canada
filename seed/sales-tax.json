@@ -1,0 +1,183 @@
+{
+  "dataset": "sales_tax",
+  "tax_year_span": [
+    2022,
+    2026
+  ],
+  "jurisdictions": {
+    "AB": [
+      {
+        "from": "2022-01-01",
+        "to": "2026-12-31",
+        "gst": 0.05,
+        "pst": 0,
+        "hst": 0,
+        "qst": 0,
+        "label": "GST"
+      }
+    ],
+    "BC": [
+      {
+        "from": "2022-01-01",
+        "to": "2026-12-31",
+        "gst": 0.05,
+        "pst": 0.07,
+        "hst": 0,
+        "qst": 0,
+        "label": "GST+PST"
+      }
+    ],
+    "MB": [
+      {
+        "from": "2022-01-01",
+        "to": "2026-12-31",
+        "gst": 0.05,
+        "pst": 0.07,
+        "hst": 0,
+        "qst": 0,
+        "label": "GST+RST"
+      }
+    ],
+    "NB": [
+      {
+        "from": "2022-01-01",
+        "to": "2026-12-31",
+        "gst": 0,
+        "pst": 0,
+        "hst": 0.15,
+        "qst": 0,
+        "label": "HST"
+      }
+    ],
+    "NL": [
+      {
+        "from": "2022-01-01",
+        "to": "2026-12-31",
+        "gst": 0,
+        "pst": 0,
+        "hst": 0.15,
+        "qst": 0,
+        "label": "HST"
+      }
+    ],
+    "NT": [
+      {
+        "from": "2022-01-01",
+        "to": "2026-12-31",
+        "gst": 0.05,
+        "pst": 0,
+        "hst": 0,
+        "qst": 0,
+        "label": "GST"
+      }
+    ],
+    "NS": [
+      {
+        "from": "2022-01-01",
+        "to": "2025-03-31",
+        "gst": 0,
+        "pst": 0,
+        "hst": 0.15,
+        "qst": 0,
+        "label": "HST"
+      },
+      {
+        "from": "2025-04-01",
+        "to": "2026-12-31",
+        "gst": 0,
+        "pst": 0,
+        "hst": 0.14,
+        "qst": 0,
+        "label": "HST"
+      }
+    ],
+    "NU": [
+      {
+        "from": "2022-01-01",
+        "to": "2026-12-31",
+        "gst": 0.05,
+        "pst": 0,
+        "hst": 0,
+        "qst": 0,
+        "label": "GST"
+      }
+    ],
+    "ON": [
+      {
+        "from": "2022-01-01",
+        "to": "2026-12-31",
+        "gst": 0,
+        "pst": 0,
+        "hst": 0.13,
+        "qst": 0,
+        "label": "HST"
+      }
+    ],
+    "PE": [
+      {
+        "from": "2022-01-01",
+        "to": "2026-12-31",
+        "gst": 0,
+        "pst": 0,
+        "hst": 0.15,
+        "qst": 0,
+        "label": "HST"
+      }
+    ],
+    "QC": [
+      {
+        "from": "2022-01-01",
+        "to": "2026-12-31",
+        "gst": 0.05,
+        "pst": 0,
+        "hst": 0,
+        "qst": 0.09975,
+        "label": "GST+QST"
+      }
+    ],
+    "SK": [
+      {
+        "from": "2022-01-01",
+        "to": "2026-12-31",
+        "gst": 0.05,
+        "pst": 0.06,
+        "hst": 0,
+        "qst": 0,
+        "label": "GST+PST"
+      }
+    ],
+    "YT": [
+      {
+        "from": "2022-01-01",
+        "to": "2026-12-31",
+        "gst": 0.05,
+        "pst": 0,
+        "hst": 0,
+        "qst": 0,
+        "label": "GST"
+      }
+    ]
+  },
+  "notes": [
+    "Quebec QST is 9.975% and is not part of the HST. GST remains 5%.",
+    "Nova Scotia HST is 15% before 2025-04-01 and 14% on and after that date.",
+    "PST, RST and QST shown here are the general provincial sales-tax rates. They are not a ruling on place of supply, zero-rating, or point-of-sale rebates."
+  ],
+  "sources": [
+    {
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/charge-collect-which-rate/calculator.html",
+      "title": "CRA GST/HST calculator and rates, including the Nova Scotia change on 1 April 2025",
+      "verified_on": "2026-11-09"
+    },
+    {
+      "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/notice342/nova-scotia-hst-rate-decrease-questions-answers-general-transitional-rules-personal-property-services.html",
+      "title": "CRA GST/HST Notice 342, Nova Scotia HST rate decrease",
+      "verified_on": "2026-11-09"
+    },
+    {
+      "url": "https://www.revenuquebec.ca/en/citizens/income-tax-return/completing-your-income-tax-return/income-tax-rates/",
+      "title": "Revenu Québec (QST 9.975% as published on the CRA rates table)",
+      "verified_on": "2026-11-09"
+    }
+  ]
+}

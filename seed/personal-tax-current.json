@@ -1,0 +1,638 @@
+{
+  "current_tax_year": 2026,
+  "years": {
+    "2026": {
+      "tax_year": 2026,
+      "dataset": "personal_tax",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31",
+      "calendar": {
+        "updated": "2026-11-09",
+        "balance_due": "2027-04-30",
+        "file_self_employed": "2027-06-15",
+        "us_federal_due": "2027-04-15",
+        "example_on": "2026-07-01",
+        "pay_example_on": "2026-11-09",
+        "bc_payroll_july": "2026-07-01",
+        "instalments": ["2026-03-15", "2026-06-15", "2026-09-15", "2026-12-15"],
+        "income_samples": [42000, 86000, 155000]
+      },
+      "capital_gains_inclusion": 0.5,
+      "dividends": {
+        "eligible_grossup": 0.38,
+        "non_eligible_grossup": 0.15,
+        "federal_eligible_credit_on_taxable": 0.150198,
+        "federal_non_eligible_credit_on_taxable": 0.090301,
+        "provincial_credit": null
+      },
+      "cpp_ei": {
+        "ympe": 74600,
+        "yampe": 85000,
+        "exemption": 3500,
+        "rate": 0.0595,
+        "base_rate": 0.0495,
+        "first_rate": 0.01,
+        "second_rate": 0.04,
+        "max": 4230.45,
+        "base_max": 3519.45,
+        "first_max": 711.0,
+        "second_max": 416.0,
+        "credit_mode": "split",
+        "ei_rate": 0.0163,
+        "ei_max_earnings": 68900,
+        "ei_max": 1123.07,
+        "ei_qc_rate": 0.013,
+        "ei_qc_max": 895.7,
+        "employer_ei_multiple": 1.4,
+        "qpp_rate": 0.063,
+        "qpp_base_rate": 0.053,
+        "qpp_max": 4479.3,
+        "qpp_base_max": 3768.3,
+        "qpp_first_max": 711.0,
+        "qpip_rate": 0.0043,
+        "qpip_employer_rate": 0.00602,
+        "qpip_max_earnings": 103000,
+        "qpip_max": 442.9,
+        "qpip_employer_max": 620.06
+      },
+      "quebec_workers": {
+        "max": 1450,
+        "rate": 0.06,
+        "source_url": "https://www.revenuquebec.ca/en/businesses/source-deductions-and-employer-contributions/employers-principal-changes-for-2026/",
+        "source_title": "Revenu Québec, employers' principal changes for 2026: maximum deduction for workers $1,450"
+      },
+      "jurisdictions": {
+        "AB": {
+          "brackets": [
+            {
+              "upto": 61200,
+              "rate": 0.08
+            },
+            {
+              "upto": 154259,
+              "rate": 0.1
+            },
+            {
+              "upto": 185111,
+              "rate": 0.12
+            },
+            {
+              "upto": 246813,
+              "rate": 0.13
+            },
+            {
+              "upto": 370220,
+              "rate": 0.14
+            },
+            {
+              "upto": null,
+              "rate": 0.15
+            }
+          ],
+          "credit_rate": 0.08,
+          "bpa": {
+            "max": 22769,
+            "min": 22769,
+            "phase_from": null,
+            "phase_to": null
+          },
+          "ab_k5p": {
+            "threshold": 4896,
+            "multiplier": 0.25
+          }
+        },
+        "BC": {
+          "payroll_july_rate": 0.0614,
+          "payroll_july_reduction": 805,
+          "brackets": [
+            {
+              "upto": 50363,
+              "rate": 0.056
+            },
+            {
+              "upto": 100728,
+              "rate": 0.077
+            },
+            {
+              "upto": 115648,
+              "rate": 0.105
+            },
+            {
+              "upto": 140430,
+              "rate": 0.1229
+            },
+            {
+              "upto": 190405,
+              "rate": 0.147
+            },
+            {
+              "upto": 265545,
+              "rate": 0.168
+            },
+            {
+              "upto": null,
+              "rate": 0.205
+            }
+          ],
+          "credit_rate": 0.056,
+          "bpa": {
+            "max": 13216,
+            "min": 13216,
+            "phase_from": null,
+            "phase_to": null
+          },
+          "bc_reduction": {
+            "threshold": 25570,
+            "basic": 690,
+            "rate": 0.0356,
+            "upper": 44952
+          }
+        },
+        "MB": {
+          "brackets": [
+            {
+              "upto": 47564,
+              "rate": 0.108
+            },
+            {
+              "upto": 101200,
+              "rate": 0.1275
+            },
+            {
+              "upto": null,
+              "rate": 0.174
+            }
+          ],
+          "credit_rate": 0.108,
+          "bpa": {
+            "max": 15780,
+            "min": 0,
+            "phase_from": 200000,
+            "phase_to": 400000
+          },
+          "mb_bpa_phase": {
+            "max": 15780,
+            "from": 200000,
+            "to": 400000
+          }
+        },
+        "NB": {
+          "brackets": [
+            {
+              "upto": 52333,
+              "rate": 0.094
+            },
+            {
+              "upto": 104666,
+              "rate": 0.14
+            },
+            {
+              "upto": 193861,
+              "rate": 0.16
+            },
+            {
+              "upto": null,
+              "rate": 0.195
+            }
+          ],
+          "credit_rate": 0.094,
+          "bpa": {
+            "max": 13664,
+            "min": 13664,
+            "phase_from": null,
+            "phase_to": null
+          }
+        },
+        "NL": {
+          "brackets": [
+            {
+              "upto": 44678,
+              "rate": 0.087
+            },
+            {
+              "upto": 89354,
+              "rate": 0.145
+            },
+            {
+              "upto": 159528,
+              "rate": 0.158
+            },
+            {
+              "upto": 223340,
+              "rate": 0.178
+            },
+            {
+              "upto": 285319,
+              "rate": 0.198
+            },
+            {
+              "upto": 570638,
+              "rate": 0.208
+            },
+            {
+              "upto": 1141275,
+              "rate": 0.213
+            },
+            {
+              "upto": null,
+              "rate": 0.218
+            }
+          ],
+          "credit_rate": 0.087,
+          "bpa": {
+            "max": 13094,
+            "min": 13094,
+            "phase_from": null,
+            "phase_to": null
+          }
+        },
+        "NT": {
+          "brackets": [
+            {
+              "upto": 53003,
+              "rate": 0.059
+            },
+            {
+              "upto": 106009,
+              "rate": 0.086
+            },
+            {
+              "upto": 172346,
+              "rate": 0.122
+            },
+            {
+              "upto": null,
+              "rate": 0.1405
+            }
+          ],
+          "credit_rate": 0.059,
+          "bpa": {
+            "max": 18198,
+            "min": 18198,
+            "phase_from": null,
+            "phase_to": null
+          }
+        },
+        "NS": {
+          "brackets": [
+            {
+              "upto": 30995,
+              "rate": 0.0879
+            },
+            {
+              "upto": 61991,
+              "rate": 0.1495
+            },
+            {
+              "upto": 97417,
+              "rate": 0.1667
+            },
+            {
+              "upto": 157124,
+              "rate": 0.175
+            },
+            {
+              "upto": null,
+              "rate": 0.21
+            }
+          ],
+          "credit_rate": 0.0879,
+          "bpa": {
+            "max": 11932,
+            "min": 11932,
+            "phase_from": null,
+            "phase_to": null
+          },
+          "ns_bpa": {
+            "mode": "flat"
+          }
+        },
+        "NU": {
+          "brackets": [
+            {
+              "upto": 55801,
+              "rate": 0.04
+            },
+            {
+              "upto": 111602,
+              "rate": 0.07
+            },
+            {
+              "upto": 181439,
+              "rate": 0.09
+            },
+            {
+              "upto": null,
+              "rate": 0.115
+            }
+          ],
+          "credit_rate": 0.04,
+          "bpa": {
+            "max": 19659,
+            "min": 19659,
+            "phase_from": null,
+            "phase_to": null
+          }
+        },
+        "ON": {
+          "brackets": [
+            {
+              "upto": 53891,
+              "rate": 0.0505
+            },
+            {
+              "upto": 107785,
+              "rate": 0.0915
+            },
+            {
+              "upto": 150000,
+              "rate": 0.1116
+            },
+            {
+              "upto": 220000,
+              "rate": 0.1216
+            },
+            {
+              "upto": null,
+              "rate": 0.1316
+            }
+          ],
+          "credit_rate": 0.0505,
+          "bpa": {
+            "max": 12989,
+            "min": 12989,
+            "phase_from": null,
+            "phase_to": null
+          },
+          "on_surtax": [
+            {
+              "over": 5818,
+              "rate": 0.2
+            },
+            {
+              "over": 7446,
+              "rate": 0.36
+            }
+          ],
+          "on_reduction_basic": 300,
+          "on_health": {
+            "bands": [
+              {
+                "upto": 20000,
+                "base": 0,
+                "rate": 0,
+                "over": 0
+              },
+              {
+                "upto": 36000,
+                "base": 0,
+                "rate": 0.06,
+                "over": 20000,
+                "cap": 300
+              },
+              {
+                "upto": 48000,
+                "base": 300,
+                "rate": 0.06,
+                "over": 36000,
+                "cap": 450
+              },
+              {
+                "upto": 72000,
+                "base": 450,
+                "rate": 0.25,
+                "over": 48000,
+                "cap": 600
+              },
+              {
+                "upto": 200000,
+                "base": 600,
+                "rate": 0.25,
+                "over": 72000,
+                "cap": 750
+              },
+              {
+                "upto": null,
+                "base": 750,
+                "rate": 0.25,
+                "over": 200000,
+                "cap": 900
+              }
+            ]
+          }
+        },
+        "PE": {
+          "brackets": [
+            {
+              "upto": 33928,
+              "rate": 0.095
+            },
+            {
+              "upto": 65820,
+              "rate": 0.1347
+            },
+            {
+              "upto": 106890,
+              "rate": 0.166
+            },
+            {
+              "upto": 142520,
+              "rate": 0.1762
+            },
+            {
+              "upto": 200000,
+              "rate": 0.19
+            },
+            {
+              "upto": null,
+              "rate": 0.2
+            }
+          ],
+          "credit_rate": 0.095,
+          "bpa": {
+            "max": 15000,
+            "min": 15000,
+            "phase_from": null,
+            "phase_to": null
+          }
+        },
+        "SK": {
+          "brackets": [
+            {
+              "upto": 54532,
+              "rate": 0.105
+            },
+            {
+              "upto": 155805,
+              "rate": 0.125
+            },
+            {
+              "upto": null,
+              "rate": 0.145
+            }
+          ],
+          "credit_rate": 0.105,
+          "bpa": {
+            "max": 20381,
+            "min": 20381,
+            "phase_from": null,
+            "phase_to": null
+          }
+        },
+        "QC": {
+          "brackets": [
+            {
+              "upto": 54345,
+              "rate": 0.14
+            },
+            {
+              "upto": 108680,
+              "rate": 0.19
+            },
+            {
+              "upto": 132245,
+              "rate": 0.24
+            },
+            {
+              "upto": null,
+              "rate": 0.2575
+            }
+          ],
+          "credit_rate": 0.14,
+          "bpa": {
+            "max": 18952,
+            "min": 18952,
+            "phase_from": null,
+            "phase_to": null
+          },
+          "federal_abatement": 0.165
+        },
+        "FED": {
+          "brackets": [
+            {
+              "upto": 58523,
+              "rate": 0.14
+            },
+            {
+              "upto": 117045,
+              "rate": 0.205
+            },
+            {
+              "upto": 181440,
+              "rate": 0.26
+            },
+            {
+              "upto": 258482,
+              "rate": 0.29
+            },
+            {
+              "upto": null,
+              "rate": 0.33
+            }
+          ],
+          "credit_rate": 0.14,
+          "bpa": {
+            "max": 16452,
+            "min": 14829,
+            "phase_from": 181440,
+            "phase_to": 258482
+          },
+          "cea": 1501
+        },
+        "YT": {
+          "brackets": [
+            {
+              "upto": 58523,
+              "rate": 0.064
+            },
+            {
+              "upto": 117045,
+              "rate": 0.09
+            },
+            {
+              "upto": 181440,
+              "rate": 0.109
+            },
+            {
+              "upto": 500000,
+              "rate": 0.128
+            },
+            {
+              "upto": null,
+              "rate": 0.15
+            }
+          ],
+          "credit_rate": 0.064,
+          "bpa": {
+            "max": 16452,
+            "min": 14829,
+            "phase_from": 181440,
+            "phase_to": 258482
+          },
+          "cea": 1501,
+          "mirrors_federal_bpa": true
+        }
+      },
+      "notes": [
+        "British Columbia's annual return uses the legislated 5.60% lowest rate and a $690 basic reduction. January–June 2026 payroll tables use 5.06% and a $575 reduction; July–December payroll uses a 6.14% prorated rate and an $805 reduction.",
+        "Manitoba's annual brackets are the CRA return table ($47,564 / $101,200). The January 2026 T4127 payroll tables still use $47,000 / $100,000.",
+        "Newfoundland and Labrador's annual basic personal amount used here is $13,094. Payroll withholding used $11,188 until July 2026 and a prorated $15,000 after that.",
+        "Provincial and territorial dividend tax credits are not in this dataset. Dividend results omit them and say so.",
+        "Quebec deduction for workers is the lesser of 6 percent of employment income and the year's maximum. It is not applied to self-employment, pensions or investment income.",
+        "Self-employed CPP/QPP is not calculated. Employment income is the only income that creates CPP, EI, QPP and QPIP in these estimates."
+      ],
+      "sources": [
+        {
+          "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets/current-year.html",
+          "title": "CRA personal income tax rates and brackets",
+          "verified_on": "2026-11-09"
+        },
+        {
+          "url": "https://www.revenuquebec.ca/en/citizens/income-tax-return/completing-your-income-tax-return/income-tax-rates/",
+          "title": "Revenu Québec income tax rates",
+          "verified_on": "2026-11-09"
+        },
+        {
+          "url": "https://laws-lois.justice.gc.ca/eng/acts/I-3.3/page-22.html",
+          "title": "Income Tax Act, section 38, taxable capital gain is one-half",
+          "verified_on": "2026-11-09"
+        },
+        {
+          "url": "https://www.pm.gc.ca/en/news/news-releases/2025/03/21/prime-minister-mark-carney-cancels-proposed-capital-gains-tax-increase",
+          "title": "Prime Minister of Canada, 21 March 2025, cancellation of the proposed capital-gains inclusion-rate increase",
+          "verified_on": "2026-11-09"
+        },
+        {
+          "url": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-d1/5000-d1-25e.pdf",
+          "title": "CRA Federal Worksheet 5000-D1 (2025), line 40425 rates 15.0198% and 9.0301%",
+          "verified_on": "2026-11-09"
+        },
+        {
+          "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/payroll/t4127-payroll-deductions-formulas/t4127-jan/t4127-jan-payroll-deductions-formulas-computer-programs.html",
+          "title": "CRA T4127 122nd edition, effective 2026-01-01, Table 8.2",
+          "verified_on": "2026-11-09"
+        },
+        {
+          "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/payroll/t4127-payroll-deductions-formulas/t4127-jul/t4127-jul-payroll-deductions-formulas.html",
+          "title": "CRA T4127 123rd edition, effective 2026-07-01 (BC legislated 5.60% and reduction $690; NL BPA $13,094 on the annual return)",
+          "verified_on": "2026-11-09"
+        },
+        {
+          "url": "https://www.canada.ca/en/revenue-agency/services/e-services/digital-services-businesses/payroll-deductions-online-calculator.html",
+          "title": "CRA PDOC what's new, July 2026 (NL BPA increase to $13,094 for 2026)",
+          "verified_on": "2026-11-09"
+        },
+        {
+          "url": "https://www.revenuquebec.ca/en/businesses/source-deductions-and-employer-contributions/employers-principal-changes-for-2026/",
+          "title": "Revenu Québec, Employers: principal changes for 2026 (basic personal amount $18,952)",
+          "verified_on": "2026-11-09"
+        },
+        {
+          "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets/current-year.html",
+          "title": "CRA current-year tax rates and income brackets (2026)",
+          "verified_on": "2026-11-09"
+        }
+      ]
+    }
+  }
+}

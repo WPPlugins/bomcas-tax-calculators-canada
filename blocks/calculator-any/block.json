@@ -1,0 +1,14 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "bomcas/calculator-any",
+	"title": "BOMCAS Tax Calculators – Canada",
+	"category": "widgets",
+	"description": "Any bundled calculator. Inputs stay in the browser.",
+	"textdomain": "bomcas-tax-calculators-canada",
+	"attributes": {
+		"calculator": { "type": "string", "default": "sales-tax" },
+		"province": { "type": "string", "default": "" }
+	},
+	"supports": { "html": false }
+}

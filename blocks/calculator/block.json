@@ -1,0 +1,15 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "bomcas/calculator",
+	"title": "BOMCAS Tax Calculators – Canada",
+	"category": "widgets",
+	"description": "Canadian income tax, sales tax, or a mortgage payment. Payroll calculators are in the Professional plan, not in this block.",
+	"textdomain": "bomcas-tax-calculators-canada",
+	"editorScript": "file:./editor.js",
+	"attributes": {
+		"calculator": { "type": "string", "default": "sales-tax" },
+		"province": { "type": "string", "default": "" }
+	},
+	"supports": { "html": false }
+}

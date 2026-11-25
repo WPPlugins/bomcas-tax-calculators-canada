@@ -1,0 +1,203 @@
+/* BOMCAS Tax Calculators – Canada. Standalone styling; themes may override the variables. */
+.bomcas-calc {
+	--bomcas-navy: var(--ae-navy, var(--navy, #0B1F3A));
+	--bomcas-accent: var(--ae-accent, var(--orange, #E8572A));
+	--bomcas-link: var(--ae-accent-text, #C2410C);
+	--bomcas-blue: var(--bomcas-link);
+	--bomcas-ink: var(--ae-body, var(--text, #1B2A44));
+	--bomcas-muted: var(--ae-muted, var(--muted, #4A5A70));
+	--bomcas-paper: var(--ae-white, #ffffff);
+	--bomcas-wash: var(--ae-paper, var(--bg, #F5F7FA));
+	--bomcas-line: var(--ae-line, var(--grey, #D5DDE6));
+	--bomcas-border: var(--ae-border, #6B7C93);
+	color: var(--bomcas-ink);
+	font-family: inherit;
+	font-size: 16px;
+	line-height: 1.6;
+}
+.bomcas-calc button,
+.bomcas-calc input,
+.bomcas-calc select { font: inherit; }
+.bomcas-calc * { box-sizing: border-box; }
+.bomcas-calc [hidden] { display: none !important; }
+.bomcas-hub-list { columns: 1; margin: 0 0 1.5rem; padding: 0; list-style: none; }
+.bomcas-hub-list li { margin: 0; border-bottom: 1px solid var(--bomcas-line); }
+.bomcas-hub-list a { display: block; padding: 0.75rem 0; font-weight: 650; }
+.bomcas-breakdown { margin-top: 1rem; }
+.bomcas-breakdown summary { cursor: pointer; font-weight: 650; }
+@media (min-width: 720px) {
+	.bomcas-hub-list { columns: 2; }
+}
+.bomcas-calc h2, .bomcas-calc h3 { color: var(--bomcas-navy); line-height: 1.25; }
+.bomcas-calc a { color: var(--bomcas-link); }
+.bomcas-calc a:hover, .bomcas-calc a:focus { color: var(--bomcas-accent); }
+.bomcas-layout { display: grid; gap: 1.25rem; }
+@media (min-width: 860px) {
+	.bomcas-layout.is-split { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); align-items: start; }
+}
+.bomcas-panel {
+	background: var(--bomcas-paper);
+	border: 1px solid var(--bomcas-line);
+	border-radius: 8px;
+	padding: 1rem 1.1rem 1.2rem;
+}
+.bomcas-field { display: flex; flex-direction: column; gap: .35rem; margin: 0 0 1rem; width: 100%; }
+.bomcas-label, .bomcas-field > span:first-child { font-weight: 650; color: var(--bomcas-navy); }
+.bomcas-control { display: flex; align-items: stretch; width: 100%; background: #fff; border: 1px solid var(--bomcas-border); border-radius: 6px; overflow: hidden; }
+.bomcas-control:focus-within { border-color: var(--bomcas-accent); box-shadow: 0 0 0 3px rgba(232, 87, 42, .35); }
+.bomcas-affix { display: flex; align-items: center; padding: 0 .75rem; background: var(--bomcas-wash); color: var(--bomcas-navy); font-weight: 700; }
+.bomcas-calc .bomcas-field select,
+.bomcas-calc .bomcas-lead input,
+.bomcas-calc .bomcas-lead select {
+	font: inherit;
+	width: 100%;
+	min-height: 48px;
+	padding: .65rem .75rem;
+	border: 1px solid var(--bomcas-border);
+	border-radius: 6px;
+	background: #fff;
+	color: var(--bomcas-ink);
+}
+.bomcas-calc .bomcas-lead label { display: flex; flex-direction: column; gap: .35rem; font-weight: 650; color: var(--bomcas-navy); margin: 0 0 .8rem; }
+.bomcas-field input, .bomcas-field select, .bomcas-control input, .bomcas-control select {
+	font: inherit; width: 100%; min-height: 48px; padding: .65rem .75rem; border: 0; background: #fff; color: var(--bomcas-ink);
+}
+.bomcas-hint { color: var(--bomcas-muted); font-size: .9rem; }
+.bomcas-group { border: 0; margin: 0 0 1rem; padding: 0; }
+.bomcas-group legend { font-weight: 700; color: var(--bomcas-navy); margin-bottom: .4rem; }
+.bomcas-check { display: flex; gap: .6rem; align-items: flex-start; margin: 0 0 .8rem; }
+.bomcas-summary { display: flex; justify-content: space-between; gap: 1rem; align-items: baseline; margin: 0 0 1rem; padding-bottom: .6rem; border-bottom: 2px solid var(--bomcas-navy); }
+.bomcas-summary strong { font-size: 1.6rem; color: var(--bomcas-navy); }
+.bomcas-breakdown { margin: .5rem 0 1rem; }
+.bomcas-breakdown summary { cursor: pointer; font-weight: 700; color: var(--bomcas-blue); }
+.bomcas-result dd span, .bomcas-breakdown dd span { display: block; color: var(--bomcas-muted); font-size: .9rem; font-weight: 400; }
+.bomcas-actions { display: flex; flex-wrap: wrap; gap: .6rem; margin-top: .4rem; }
+.bomcas-calc button {
+	font: inherit;
+	min-height: 44px;
+	padding: .55rem 1rem;
+	border-radius: 5px;
+	border: 2px solid var(--bomcas-accent);
+	background: var(--bomcas-accent);
+	color: #fff;
+	cursor: pointer;
+}
+.bomcas-calc button.btn.btn-secondary,
+.bomcas-calc button[data-action="print"] {
+	background: var(--bomcas-navy);
+	border-color: var(--bomcas-navy);
+	color: #fff;
+	border-radius: 5px;
+	font-weight: 500;
+	padding: .75rem 1.4rem;
+}
+.bomcas-calc button.bomcas-ghost { background: #fff; color: var(--bomcas-navy); border-color: var(--bomcas-navy); }
+.bomcas-calc button:focus-visible, .bomcas-field input:focus-visible, .bomcas-field select:focus-visible {
+	outline: 3px solid var(--bomcas-accent);
+	outline-offset: 2px;
+}
+.bomcas-result { margin: 0; }
+.bomcas-result dt { font-weight: 600; margin-top: .7rem; }
+.bomcas-result dd { margin: 0; font-size: 1.35rem; }
+.bomcas-table { width: 100%; border-collapse: collapse; font-size: .95rem; }
+.bomcas-table th, .bomcas-table td { text-align: left; padding: .45rem .4rem; border-bottom: 1px solid var(--bomcas-line); vertical-align: top; }
+.bomcas-note, .bomcas-fresh, .bomcas-disclaimer { color: var(--bomcas-muted); font-size: .95rem; }
+.bomcas-stale { background: #fff6e8; border: 1px solid #e0b15a; padding: .7rem .9rem; border-radius: 6px; }
+.bomcas-chart { width: 100%; height: auto; }
+.bomcas-chart rect { fill: var(--bomcas-accent); }
+.bomcas-sr { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); border: 0; }
+.bomcas-hero-credit { font-size: .8rem; color: #d5dee6; margin: .4rem 0 0; }
+.bomcas-crumbs { background: var(--bomcas-wash); padding: .75rem 0; }
+.bomcas-calc-page { width: min(100% - 2 * var(--pad, 24px), var(--max, 1200px)); margin: 1.5rem auto 3rem; }
+@media print {
+	.section-head, .page-hero, .section-logos, .breadcrumbs, .bomcas-actions, .site-footer, .bomcas-noprint, nav { display: none !important; }
+	.bomcas-calc { color: #000; }
+	.bomcas-print-head { display: block !important; }
+	a { color: #000; text-decoration: none; }
+}
+.bomcas-print-head { display: none; }
+/* Use the theme page hero so the banner sits under the fixed header. */
+body.bomcas-calc-screen > .page-hero.service-hero { margin-top: 0; }
+.bomcas-guide h2 {
+	margin: 1.6rem 0 .7rem;
+	padding-bottom: .4rem;
+	border-bottom: 3px solid var(--bomcas-accent);
+	color: var(--bomcas-navy);
+	font-size: 1.45rem;
+}
+.bomcas-guide p { margin: 0 0 .9rem; line-height: 1.6; }
+.bomcas-guide .btn-skew { background: var(--bomcas-accent); color: #fff; }
+.bomcas-guide .btn-secondary { background: var(--bomcas-navy); color: #fff; border-radius: 5px; }
+.bomcas-page-head .bomcas-page-title {
+	margin: 0 0 .85rem;
+	padding-bottom: .45rem;
+	border-bottom: 3px solid var(--bomcas-accent);
+	color: var(--bomcas-navy);
+	font-weight: 700;
+	font-size: clamp(1.45rem, 3vw, 2rem);
+	line-height: 1.25;
+}
+.bomcas-page-intro { margin: 0; max-width: 42rem; color: var(--bomcas-ink); }
+.bomcas-page-head .checklist-cta-bar { margin: .55rem 0 .4rem; }
+.bomcas-page-head .btn.btn-secondary {
+	display: inline-flex;
+	align-items: center;
+	background: var(--bomcas-navy);
+	color: #fff;
+	padding: .75rem 1.35rem;
+	border-radius: 2px;
+	font-weight: 600;
+	text-decoration: none;
+	border: 0;
+	cursor: pointer;
+}
+.bomcas-photo-credit {
+	position: absolute;
+	right: 1rem;
+	bottom: .55rem;
+	z-index: 2;
+	margin: 0;
+	font-size: .72rem;
+	color: #f4f7fb;
+}
+@media (max-width: 767px) {
+	.bomcas-photo-credit {
+		position: static;
+		display: block;
+		width: auto;
+		margin: 0;
+		padding: .35rem 0 0;
+		text-align: right;
+		background: transparent;
+		color: var(--bomcas-muted);
+	}
+	.bomcas-photo-credit a { color: #fff; }
+}
+.bomcas-photo-credit a { color: #fff; }
+.bomcas-lang { display: inline-flex; gap: 0; margin: 0 0 1rem; border: 1px solid var(--bomcas-line); border-radius: 4px; overflow: hidden; font-size: .85rem; }
+.bomcas-lang a { padding: .35rem .7rem; color: var(--bomcas-link); text-decoration: none; }
+.bomcas-lang a + a { border-left: 1px solid var(--bomcas-line); }
+body.bomcas-calc-screen .cta-band,
+body.bomcas-store-page .cta-band { display: none !important; }
+.bomcas-product-band { background: var(--bomcas-navy, #0B1F3A); color: #fff; text-align: center; padding: 3rem 0; }
+.bomcas-product-band h2,
+.bomcas-product-band p { color: #fff; }
+.bomcas-feature-grid { list-style: none; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1.25rem; margin: 0 0 2rem; padding: 0; }
+.bomcas-tool-card { background: #fff; border-radius: 4px; box-shadow: 0 4px 18px rgba(0, 23, 41, .07); padding: 1.75rem 1.35rem 1.5rem; }
+.bomcas-tool-card h3 { margin: 0 0 .45rem; font-size: 1.05rem; }
+.bomcas-tool-card h3 a { color: var(--bomcas-navy); font-weight: 650; text-decoration: none; }
+.bomcas-tool-card h3 a::before { content: ""; display: block; width: 2rem; height: 3px; margin: 0 0 .85rem; background: var(--bomcas-accent); }
+.bomcas-tool-card p { margin: 0; color: var(--bomcas-muted); font-weight: 400; font-size: .92rem; line-height: 1.5; }
+.bomcas-tool-card:hover { box-shadow: 0 6px 20px rgba(0, 23, 41, .10); }
+.bomcas-table { width: 100%; border-collapse: collapse; border-radius: 4px; overflow: hidden; }
+.bomcas-table th { background: var(--bomcas-wash); color: var(--bomcas-navy); font-weight: 600; text-align: left; }
+.bomcas-table th,
+.bomcas-table td { border-bottom: 1px solid var(--bomcas-line); padding: .65rem .75rem; }
+.bomcas-lead input,
+.bomcas-lead select,
+.bomcas-lead textarea { min-height: 44px; padding: .5rem .7rem; border: 1px solid var(--bomcas-border); border-radius: 4px; font: inherit; color: var(--bomcas-ink); }
+@media (max-width: 900px) { .bomcas-feature-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 560px) { .bomcas-feature-grid { grid-template-columns: 1fr; } }
+.bomcas-hp { position: absolute; left: -9999px; height: 0; overflow: hidden; }
+.bomcas-lead label, .bomcas-booking { display: block; margin: .4rem 0; }
+.bomcas-bar { display: inline-block; height: 8px; background: var(--bomcas-accent); vertical-align: middle; }

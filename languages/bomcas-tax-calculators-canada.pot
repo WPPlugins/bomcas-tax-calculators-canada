@@ -1,0 +1,4438 @@
+# Copyright (C) 2026 BOMCAS
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: BOMCAS Tax Calculators – Canada 1.1.19\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/bomcas-tax-calculators-canada\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-11-24T22:25:13+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: bomcas-tax-calculators-canada\n"
+
+#. Plugin Name of the plugin
+#: bomcas-tax-calculators-canada.php
+#: includes/bomcas-calc-bootstrap.php:1508
+#: includes/bomcas-calc-bootstrap.php:1509
+#: includes/bomcas-calc-bootstrap.php:1527
+#: includes/bomcas-calc-bootstrap.php:1573
+#: includes/bomcas-calc-bootstrap.php:1737
+#: includes/class-bomcas-calc-account.php:76
+#: includes/class-bomcas-calc-account.php:93
+#: includes/class-bomcas-calc-privacy.php:109
+#: includes/class-bomcas-calc-privacy.php:127
+#: includes/class-bomcas-calc-privacy.php:156
+#: includes/class-bomcas-docs.php:85
+#: includes/class-bomcas-listing.php:24
+#: includes/class-bomcas-rates-admin.php:66
+#: includes/class-bomcas-rates-admin.php:105
+msgid "BOMCAS Tax Calculators – Canada"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: bomcas-tax-calculators-canada.php
+msgid "https://accountantsexpert.com/products/bomcas-tax-payroll-calculators-canada/"
+msgstr ""
+
+#. Description of the plugin
+#: bomcas-tax-calculators-canada.php
+msgid "Canadian income tax, GST/HST/PST/QST, and mortgage calculators. Estimates stay in the browser."
+msgstr ""
+
+#. Author of the plugin
+#: bomcas-tax-calculators-canada.php
+msgid "BOMCAS"
+msgstr ""
+
+#. Author URI of the plugin
+#: bomcas-tax-calculators-canada.php
+msgid "https://bomcas.ca"
+msgstr ""
+
+#: bomcas-tax-calculators-canada.php:40
+msgid "The older BOMCAS Calculators plugin was turned off so BOMCAS Tax Calculators – Canada can run. Reload this screen."
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:661
+msgid "Geometric banner in green and amber for the sales-tax calculators. Original artwork, not a photograph."
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:662
+msgid "Geometric banner in purple and teal for the payroll calculators. Original artwork, not a photograph."
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:663
+msgid "Geometric banner in brown and sand for the property calculators. Original artwork, not a photograph."
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:664
+msgid "Geometric banner in navy and orange for the income-tax calculators. Original artwork, not a photograph."
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:687
+msgid "Home"
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:956
+msgid "Pick a calculator for income tax, payroll, sales tax, a vehicle, or a home."
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:957
+msgid "Estimate federal and provincial income tax on the income you enter."
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:958
+msgid "Estimate take-home pay after income tax, CPP, and EI."
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:959
+msgid "Add or remove GST, HST, PST, or QST on a standard taxable amount."
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:960
+msgid "Estimate CPP, EI, and income tax withheld on a regular paycheque."
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:961
+msgid "Estimate the tax on a dealer sale or a private vehicle purchase."
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:962
+msgid "Estimate property transfer tax from the price and the province."
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:963
+msgid "Estimate a mortgage payment from the price, down payment, and rate you enter."
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:964
+msgid "See the stress-test payment and whether the loan fits common debt-service limits."
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:965
+msgid "Estimate corporate tax on active business income."
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:966
+msgid "Compare take-home cash from a salary and from a non-eligible dividend."
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:967
+msgid "Estimate capital cost allowance for the class and the cost you enter."
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:968
+msgid "Estimate whether personal tax instalments are required."
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:969
+msgid "Estimate a late-filing penalty and the prescribed interest on a balance."
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:970
+msgid "Estimate employer health tax on payroll in the provinces that charge it."
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:971
+msgid "Estimate CPP contributions on self-employment income."
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:972
+msgid "Compare the cost of leasing a vehicle with the cost of buying it."
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:973
+msgid "Estimate the CMHC mortgage insurance premium from the down payment."
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:974
+msgid "See how Quebec income tax is withheld on a regular paycheque."
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:975
+msgid "Estimate RRSP room from last year’s earned income and the dollar limit."
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:976
+msgid "Add up TFSA room from the annual limits and the contributions you enter."
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:977
+msgid "Estimate how much you can still put in a first home savings account."
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:978
+msgid "Estimate the tax on a capital gain. Half of the gain is included in income."
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:979
+msgid "Estimate the federal Canada child benefit for the benefit year in the rate dataset."
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:980
+msgid "Estimate a regular EI benefit from weekly insurable earnings."
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:981
+msgid "Estimate a car allowance from the prescribed cents-per-kilometre rates."
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:982
+msgid "Estimate the federal and provincial tax credit on a donation."
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:983
+msgid "Estimate the Old Age Security recovery tax when income is above the threshold."
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:984
+msgid "Estimate Quebec’s general welcome tax on a property transfer."
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:986
+msgid "Estimate the tax figure from the amounts you enter."
+msgstr ""
+
+#. translators: 1: year label, 2: province, territory, or state
+#: includes/bomcas-calc-bootstrap.php:990
+#, php-format
+msgid "A {year_label} estimate for %s. What you type stays in this browser."
+msgstr ""
+
+#. translators: 1: place name, 2: tool slug
+#: includes/bomcas-calc-bootstrap.php:1027
+#, php-format
+msgid "How %1$s %2$s is worked out for {year_label}, using the published brackets for that place."
+msgstr ""
+
+#. translators: 1: place, 2: province code
+#: includes/bomcas-calc-bootstrap.php:1065
+#, php-format
+msgid "Take-home pay in %1$s subtracts {year_label} income tax, starting at {rate:%2$s.income.first}. Only the enhanced portion of CPP is deductible. EI premiums are not. Both still come off the cheque. It is not a pay stub and it does not know a claim code."
+msgstr ""
+
+#. translators: 1: An or A, 2: place, 3: province code
+#: includes/bomcas-calc-bootstrap.php:1075
+#, php-format
+msgid "%1$s %2$s paycheque estimate withholds {year_label} tax, starting from {rate:%3$s.income.first} on the annual table, plus pension and employment insurance. The net on the sample is not the remittance class."
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1084
+msgid "Ontario’s {year_label} income tax starts at {rate:ON.income.first}. The basic personal amount is {bpa:ON}. Surtax begins once provincial tax passes {money:ON.surtax.0}, and the Ontario Health Premium is charged separately from the brackets."
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1086
+msgid "Quebec’s {year_label} income tax starts at {rate:QC.income.first}. The basic personal amount is {bpa:QC}. Residents also receive the {rate:QC.abatement} abatement of basic federal tax."
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1088
+msgid "British Columbia’s {year_label} income tax starts at {rate:BC.income.first}. The basic personal amount is {bpa:BC}. A tax reduction can lower the bill when income is modest."
+msgstr ""
+
+#. translators: 1: possessive place name, 2: province code, 3: province code
+#: includes/bomcas-calc-bootstrap.php:1093
+#, php-format
+msgid "%1$s {year_label} income tax starts at {rate:%2$s.income.first}. The basic personal amount is {bpa:%3$s}. Only the enhanced portion of CPP is deductible. EI premiums are not. Credits that are not in the rate table are left off."
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1128
+#: includes/bomcas-calc-bootstrap.php:1157
+msgid "Tax Calculators"
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1129
+msgid "Take-home Pay and Payroll"
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1130
+msgid "Capital Cost Allowance Tax Estimate"
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1131
+msgid "Vehicle Purchase Tax"
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1132
+msgid "Lease or Buy and Vehicle Tax"
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1133
+msgid "Mortgage Financing Estimate"
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1134
+msgid "Mortgage Financing Payment"
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1135
+msgid "CMHC Mortgage Financing Insurance"
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1136
+msgid "Quebec Payroll Withholding"
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1137
+msgid "RRSP Room and Tax"
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1138
+msgid "TFSA Room and Tax"
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1139
+msgid "FHSA Savings and Tax"
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1140
+msgid "Capital Gains Tax"
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1141
+msgid "Canada Child Benefit Tax Estimate"
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1142
+msgid "Employment Insurance Payroll Benefit"
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1143
+msgid "Car Allowance Tax Estimate"
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1144
+msgid "Donation Tax Credit"
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1145
+msgid "Old Age Security Recovery Tax"
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1146
+msgid "Salary Versus Dividend Tax"
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1153
+msgid "Tax Estimate"
+msgstr ""
+
+#. translators: %s: calculator name
+#: includes/bomcas-calc-bootstrap.php:1166
+#, php-format
+msgid "How to use the %s calculator"
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1172
+msgid "income tax"
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1173
+msgid "sales tax"
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1174
+msgid "payroll tax"
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1175
+msgid "take-home pay after tax"
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1176
+msgid "vehicle purchase tax"
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1177
+msgid "land transfer tax"
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1179
+msgid "tax"
+msgstr ""
+
+#. translators: 1: place name, 2: tax topic
+#: includes/bomcas-calc-bootstrap.php:1182
+#, php-format
+msgid "How %1$s %2$s is calculated"
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1275
+msgid "Nova Scotia HST changes on {date:NS.sales.latest_from}. Vehicles, real property and exempt supplies are not covered."
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1277
+msgid "General sales-tax rates for the place you select. Vehicles, real property and exempt supplies are not covered."
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1283
+msgid "Rates effective {effective}. This is an estimate for {year_label}, not an assessment."
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1322
+msgid "Sales tax calculator"
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1323
+msgid "Income tax calculator"
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1324
+msgid "Mortgage payment calculator"
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1402
+msgid "Overview"
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1407
+#: includes/bomcas-calc-bootstrap.php:1490
+msgid "Settings"
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1412
+#: includes/bomcas-calc-bootstrap.php:1491
+msgid "Toggles"
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1417
+#: includes/bomcas-calc-bootstrap.php:1492
+#: includes/bomcas-calc-bootstrap.php:1607
+#: includes/class-bomcas-docs.php:401
+#: includes/class-bomcas-docs.php:402
+#: includes/class-bomcas-docs.php:425
+msgid "Rates"
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1422
+#: includes/bomcas-calc-bootstrap.php:1699
+#: includes/class-bomcas-calc-copy.php:458
+#: includes/class-bomcas-calc-copy.php:459
+msgid "Page content"
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1427
+#: includes/bomcas-calc-bootstrap.php:1698
+#: includes/class-bomcas-leads.php:364
+#: includes/class-bomcas-leads.php:421
+#: includes/class-bomcas-stats.php:157
+msgid "Leads"
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1432
+#: includes/class-bomcas-docs.php:493
+#: includes/class-bomcas-stats.php:123
+msgid "Usage"
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1437
+#: includes/class-bomcas-docs.php:502
+#: includes/class-bomcas-stats.php:258
+#: includes/class-bomcas-trust.php:480
+msgid "Booking"
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1442
+#: includes/class-bomcas-docs.php:511
+#: includes/class-bomcas-i18n.php:138
+#: includes/class-bomcas-i18n.php:159
+msgid "Languages"
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1447
+#: includes/class-bomcas-docs.php:521
+#: includes/class-bomcas-packs.php:126
+msgid "Packs"
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1452
+#: includes/class-bomcas-trust.php:420
+msgid "Trust"
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1457
+#: includes/class-bomcas-trust.php:421
+msgid "Setup"
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1462
+#: includes/bomcas-calc-bootstrap.php:1500
+msgid "Builder"
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1467
+msgid "Account"
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1472
+#: includes/bomcas-calc-bootstrap.php:1502
+#: includes/class-bomcas-docs.php:530
+msgid "White-label"
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1477
+#: includes/class-bomcas-admin-ui.php:46
+#: includes/class-bomcas-admin-ui.php:256
+#: includes/class-bomcas-docs.php:30
+#: includes/class-bomcas-docs.php:31
+#: includes/class-bomcas-trust.php:498
+msgid "Help"
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1501
+msgid "Account & Upgrade"
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1528
+msgid "Settings · version "
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1529
+#: includes/bomcas-calc-bootstrap.php:1568
+#: includes/bomcas-calc-bootstrap.php:1569
+#: includes/bomcas-calc-bootstrap.php:1603
+#: includes/bomcas-calc-bootstrap.php:1739
+#: includes/class-bomcas-calc-copy.php:497
+#: includes/class-bomcas-leads.php:401
+#: includes/class-bomcas-listing.php:227
+#: includes/class-bomcas-rates-admin.php:108
+#: includes/class-bomcas-stats.php:275
+#: includes/class-bomcas-trust.php:438
+msgid "Lite"
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1533
+msgid "Credit"
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1534
+msgid "Sales tax, the current-year income-tax estimate and the mortgage payment calculator run in the browser. This plugin does not send calculator inputs to a server."
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1539
+msgid "Show “Calculator by BOMCAS Canada” with a link to bomcas.ca beneath calculators and printed reports. Off until you save this box."
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1541
+msgid "Save credit setting"
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1545
+msgid "Available in Pro"
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1546
+msgid "Payroll and take-home pay start on the Professional plan. The $19 Personal plan does not include them. Lite does not install Pro. Download it from My Account and upload the zip yourself."
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1547
+msgid "Compare plans"
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1548
+msgid "Dismiss"
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1550
+#: includes/class-bomcas-admin-ui.php:124
+msgid "BOMCAS Canada"
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1551
+msgid "Plugin page"
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1552
+#: includes/class-bomcas-listing.php:25
+msgid "Docs"
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1553
+#: includes/class-bomcas-calc-copy.php:497
+#: includes/class-bomcas-leads.php:401
+#: includes/class-bomcas-listing.php:227
+#: includes/class-bomcas-stats.php:275
+msgid "Pro"
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1554
+msgid "See the calculator demo"
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1574
+msgid "Overview · version "
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1589
+#: includes/bomcas-calc-bootstrap.php:1748
+#: includes/class-bomcas-trust.php:485
+msgid "Canada"
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1592
+msgid "Shipped copy"
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1597
+msgid "Licence"
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1598
+msgid "Local"
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1602
+#: includes/class-bomcas-calc-account.php:102
+#: includes/class-bomcas-calc-account.php:113
+#: includes/class-bomcas-calc-account.php:144
+msgid "Plan"
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1612
+msgid "Countries"
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1613
+msgid "Off"
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1626
+msgid "Calculations, last 30 days"
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1626
+msgid "Leads, last 30 days"
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1633
+msgid "No activity yet"
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1633
+msgid "Each calculation on this site adds a bar. Amounts a visitor types are not stored."
+msgstr ""
+
+#. translators: %d: number of calculations in the last 30 days.
+#: includes/bomcas-calc-bootstrap.php:1664
+#, php-format
+msgid "%d calculation on this site. Amounts a visitor types are not stored."
+msgid_plural "%d calculations on this site. Amounts a visitor types are not stored."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %d: number of leads in the last 30 days.
+#: includes/bomcas-calc-bootstrap.php:1667
+#, php-format
+msgid "%d lead in the last 30 days."
+msgid_plural "%d leads in the last 30 days."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/bomcas-calc-bootstrap.php:1672
+msgid "Recent leads"
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1675
+msgid "No leads yet"
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1675
+msgid "Turn the form on under Leads. It stays off until you save that box."
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1677
+#: includes/class-bomcas-leads.php:444
+msgid "When"
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1677
+#: includes/class-bomcas-leads.php:98
+#: includes/class-bomcas-leads.php:444
+msgid "Name"
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1677
+#: includes/class-bomcas-builders.php:86
+#: includes/class-bomcas-elementor-widget.php:49
+#: includes/class-bomcas-leads.php:426
+#: includes/class-bomcas-leads.php:444
+msgid "Calculator"
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1686
+msgid "Rate update"
+msgstr ""
+
+#. translators: %s: date of the signed rate package.
+#: includes/bomcas-calc-bootstrap.php:1688
+#, php-format
+msgid "A signed rate package was saved on %s. Overrides you typed are still used."
+msgstr ""
+
+#. translators: %s: date of the signed rate package.
+#: includes/bomcas-calc-bootstrap.php:1688
+msgid "This site is using the rate copy shipped in the plugin. Opt in on Rates if you want signed updates."
+msgstr ""
+
+#. translators: %d: number of rate overrides that differ from the package.
+#: includes/bomcas-calc-bootstrap.php:1691
+#, php-format
+msgid "%d override still differs from the latest package."
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1694
+msgid "Quick actions"
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1695
+#: includes/class-bomcas-calc-account.php:99
+#: includes/class-bomcas-docs.php:548
+msgid "Account and upgrade"
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1696
+#: includes/class-bomcas-rates-admin.php:67
+msgid "Rates and overrides"
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1697
+#: includes/class-bomcas-docs.php:391
+msgid "Country and tool toggles"
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1738
+msgid "Toggles · version "
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1743
+msgid "Countries and tools"
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1744
+msgid "Turn off a country or a tool. It leaves the hub, menus, shortcodes and the sitemap."
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1757
+msgid "Save toggles"
+msgstr ""
+
+#: includes/bomcas-calc-bootstrap.php:1767
+#: includes/bomcas-calc-bootstrap.php:1778
+msgid "You cannot change this setting."
+msgstr ""
+
+#: includes/class-bomcas-admin-ui.php:48
+msgid "Three-letter currency code. Plan prices are stored in CAD."
+msgstr ""
+
+#: includes/class-bomcas-admin-ui.php:49
+msgid "The code a customer types at checkout. Letters and digits only."
+msgstr ""
+
+#: includes/class-bomcas-admin-ui.php:50
+msgid "Percent, or a fixed amount in CAD, depending on Kind."
+msgstr ""
+
+#: includes/class-bomcas-admin-ui.php:51
+msgid "Percent reduces the price by that share. Fixed subtracts a dollar amount."
+msgstr ""
+
+#: includes/class-bomcas-admin-ui.php:52
+msgid "How many bills the discount applies to: the first payment, several cycles, the first year, or every renewal."
+msgstr ""
+
+#: includes/class-bomcas-admin-ui.php:53
+msgid "Hide the licence key, plan, and account screens from people who are not on the allow list."
+msgstr ""
+
+#: includes/class-bomcas-admin-ui.php:54
+msgid "WordPress user IDs, separated by commas, who may see the licence on this site."
+msgstr ""
+
+#: includes/class-bomcas-admin-ui.php:55
+msgid "Optional extra password. It is stored as a hash and is not shown again."
+msgstr ""
+
+#: includes/class-bomcas-admin-ui.php:56
+msgid "Stripe secret key. Leave blank to keep the saved key. It is never printed back."
+msgstr ""
+
+#: includes/class-bomcas-admin-ui.php:57
+msgid "Optional coupon code. It is checked against the coupons saved on the store."
+msgstr ""
+
+#: includes/class-bomcas-admin-ui.php:58
+msgid "Show or hide every Canadian calculator."
+msgstr ""
+
+#: includes/class-bomcas-admin-ui.php:59
+msgid "Paste a licence key. It is saved on this site and is not shown in the page source afterwards."
+msgstr ""
+
+#: includes/class-bomcas-admin-ui.php:60
+msgid "Shows the email form under the estimate. Off until you save it."
+msgstr ""
+
+#: includes/class-bomcas-admin-ui.php:61
+msgid "A copy of each lead is mailed here."
+msgstr ""
+
+#: includes/class-bomcas-admin-ui.php:62
+msgid "Leads older than this many days are deleted."
+msgstr ""
+
+#: includes/class-bomcas-admin-ui.php:63
+msgid "How many leads one network address may send in an hour."
+msgstr ""
+
+#: includes/class-bomcas-admin-ui.php:64
+msgid "The sentence the visitor must accept before the form sends."
+msgstr ""
+
+#: includes/class-bomcas-admin-ui.php:65
+msgid "One extra question per line, shown on the public form."
+msgstr ""
+
+#: includes/class-bomcas-admin-ui.php:66
+msgid "Optional reCAPTCHA secret. Blank keeps the saved value."
+msgstr ""
+
+#: includes/class-bomcas-admin-ui.php:67
+msgid "Optional Turnstile secret. Blank keeps the saved value."
+msgstr ""
+
+#: includes/class-bomcas-admin-ui.php:68
+msgid "Matches the lead name or email."
+msgstr ""
+
+#: includes/class-bomcas-admin-ui.php:69
+msgid "Limits the list to one calculator id, such as sales-tax."
+msgstr ""
+
+#: includes/class-bomcas-admin-ui.php:70
+msgid "Optional Google measurement id. Empty means nothing is sent to Google."
+msgstr ""
+
+#: includes/class-bomcas-admin-ui.php:71
+msgid "A label for the scheduler. The URL is what visitors open."
+msgstr ""
+
+#: includes/class-bomcas-admin-ui.php:72
+msgid "The page opened by the booking button. Blank hides the button."
+msgstr ""
+
+#: includes/class-bomcas-admin-ui.php:73
+msgid "The words on the booking button."
+msgstr ""
+
+#: includes/class-bomcas-admin-ui.php:74
+msgid "Lite shows a button. Pro can also embed the scheduler."
+msgstr ""
+
+#: includes/class-bomcas-admin-ui.php:75
+msgid "Replaces the heading under the breadcrumb on this page."
+msgstr ""
+
+#: includes/class-bomcas-admin-ui.php:76
+msgid "Replaces the opening paragraph. A plugin update does not overwrite it."
+msgstr ""
+
+#: includes/class-bomcas-admin-ui.php:77
+msgid "The words on the main button for this page."
+msgstr ""
+
+#: includes/class-bomcas-admin-ui.php:78
+msgid "The day you checked the official source. Do not invent a date."
+msgstr ""
+
+#: includes/class-bomcas-admin-ui.php:79
+msgid "A new rate report older than this is marked overdue."
+msgstr ""
+
+#: includes/class-bomcas-admin-ui.php:80
+msgid "Email rate alerts. Off until you opt in. Visitor amounts are not included."
+msgstr ""
+
+#: includes/class-bomcas-admin-ui.php:81
+msgid "Stores a short code for a shared result link."
+msgstr ""
+
+#: includes/class-bomcas-admin-ui.php:82
+msgid "Where this site does most of its work. It does not hide the other country."
+msgstr ""
+
+#: includes/class-bomcas-admin-ui.php:83
+msgid "Publishes an industry landing page. None leaves the pages as they are."
+msgstr ""
+
+#: includes/class-bomcas-admin-ui.php:84
+msgid "Optional booking page shown after a result."
+msgstr ""
+
+#: includes/class-bomcas-admin-ui.php:85
+msgid "Hides the licence key and upgrade form from people who are not on the allow list."
+msgstr ""
+
+#: includes/class-bomcas-admin-ui.php:86
+msgid "WordPress user IDs, separated by commas, who may see the licence."
+msgstr ""
+
+#: includes/class-bomcas-admin-ui.php:87
+msgid "Optional extra password. It is stored as a hash."
+msgstr ""
+
+#: includes/class-bomcas-admin-ui.php:88
+msgid "Replaces the Calculators name in the left menu when branding is hidden."
+msgstr ""
+
+#: includes/class-bomcas-admin-ui.php:89
+msgid "Shown to client sites instead of the BOMCAS address."
+msgstr ""
+
+#: includes/class-bomcas-admin-ui.php:90
+msgid "The address that publishes signed rate packages."
+msgstr ""
+
+#: includes/class-bomcas-admin-ui.php:91
+msgid "The PEM public key that verifies a rate package."
+msgstr ""
+
+#: includes/class-bomcas-admin-ui.php:92
+msgid "Which rate file this override belongs to."
+msgstr ""
+
+#: includes/class-bomcas-admin-ui.php:93
+msgid "A place code such as BC or CA. Blank shows the whole slice."
+msgstr ""
+
+#: includes/class-bomcas-admin-ui.php:94
+msgid "The tax year of the slice you want to see."
+msgstr ""
+
+#: includes/class-bomcas-admin-ui.php:95
+msgid "Income tax, sales tax, payroll, or the federal table."
+msgstr ""
+
+#: includes/class-bomcas-admin-ui.php:96
+msgid "The licence key from the purchase or a complimentary grant."
+msgstr ""
+
+#: includes/class-bomcas-admin-ui.php:97
+msgid "Personal, Professional, or Agency."
+msgstr ""
+
+#: includes/class-bomcas-admin-ui.php:98
+msgid "Monthly, quarterly, or yearly billing."
+msgstr ""
+
+#: includes/class-bomcas-admin-ui.php:99
+msgid "Adds the BOMCAS Canada credit under calculators. Off until you save it."
+msgstr ""
+
+#: includes/class-bomcas-admin-ui.php:100
+msgid "The plan or coupon name customers see."
+msgstr ""
+
+#: includes/class-bomcas-admin-ui.php:101
+msgid "Price in CAD billed every month."
+msgstr ""
+
+#: includes/class-bomcas-admin-ui.php:102
+msgid "Price in CAD billed every three months."
+msgstr ""
+
+#: includes/class-bomcas-admin-ui.php:103
+msgid "Price in CAD billed every year."
+msgstr ""
+
+#: includes/class-bomcas-admin-ui.php:104
+msgid "How many sites this plan may activate."
+msgstr ""
+
+#: includes/class-bomcas-admin-ui.php:105
+msgid "Lets an agency hide the licence on a client site."
+msgstr ""
+
+#: includes/class-bomcas-admin-ui.php:106
+msgid "The customer email for this complimentary licence."
+msgstr ""
+
+#: includes/class-bomcas-admin-ui.php:107
+msgid "Discount, free months, revoke, or extend a complimentary licence."
+msgstr ""
+
+#: includes/class-bomcas-admin-ui.php:108
+msgid "The alert title shown in the plugin and the email."
+msgstr ""
+
+#: includes/class-bomcas-admin-ui.php:109
+msgid "Done-for-you setup price in cents. Blank means it is not offered."
+msgstr ""
+
+#: includes/class-bomcas-admin-ui.php:123
+msgid "Saved."
+msgstr ""
+
+#: includes/class-bomcas-admin-ui.php:136
+msgid "Sections"
+msgstr ""
+
+#: includes/class-bomcas-admin-ui.php:152
+msgid "How this works"
+msgstr ""
+
+#: includes/class-bomcas-admin-ui.php:155
+msgid "Confirm"
+msgstr ""
+
+#: includes/class-bomcas-admin-ui.php:156
+msgid "Cancel"
+msgstr ""
+
+#: includes/class-bomcas-admin-ui.php:253
+#: includes/class-bomcas-tokens.php:791
+msgid "Learn more"
+msgstr ""
+
+#. translators: %s: article title
+#: includes/class-bomcas-admin-ui.php:273
+#, php-format
+msgid "Learn more: %s"
+msgstr ""
+
+#: includes/class-bomcas-builders.php:90
+#: includes/class-bomcas-elementor-widget.php:53
+msgid "Calculator id"
+msgstr ""
+
+#: includes/class-bomcas-calc-account.php:77
+#: includes/class-bomcas-calc-account.php:94
+msgid "Account and upgrade · version "
+msgstr ""
+
+#: includes/class-bomcas-calc-account.php:78
+#: includes/class-bomcas-calc-privacy.php:158
+#: includes/class-bomcas-rates-admin.php:68
+msgid "Hidden"
+msgstr ""
+
+#: includes/class-bomcas-calc-account.php:82
+msgid "Licence details are hidden"
+msgstr ""
+
+#: includes/class-bomcas-calc-account.php:83
+msgid "White-label is on for this user. The licence key, plan and upgrade form stay off this screen."
+msgstr ""
+
+#: includes/class-bomcas-calc-account.php:95
+msgid "Not connected"
+msgstr ""
+
+#: includes/class-bomcas-calc-account.php:101
+msgid "Status"
+msgstr ""
+
+#: includes/class-bomcas-calc-account.php:105
+msgid "Renews"
+msgstr ""
+
+#: includes/class-bomcas-calc-account.php:107
+msgid "Invoices, cancellation, and plan changes are on My Account."
+msgstr ""
+
+#: includes/class-bomcas-calc-account.php:109
+msgid "Plans"
+msgstr ""
+
+#: includes/class-bomcas-calc-account.php:111
+msgid "Live prices could not be loaded. These are the last published catalogue amounts, in Canadian dollars."
+msgstr ""
+
+#: includes/class-bomcas-calc-account.php:113
+#: includes/class-bomcas-calc-account.php:149
+msgid "Monthly"
+msgstr ""
+
+#: includes/class-bomcas-calc-account.php:113
+#: includes/class-bomcas-calc-account.php:149
+msgid "Quarterly"
+msgstr ""
+
+#: includes/class-bomcas-calc-account.php:113
+#: includes/class-bomcas-calc-account.php:149
+msgid "Yearly"
+msgstr ""
+
+#: includes/class-bomcas-calc-account.php:113
+msgid "Includes"
+msgstr ""
+
+#: includes/class-bomcas-calc-account.php:122
+msgid "Personal does not include payroll or take-home pay. Those start on Professional."
+msgstr ""
+
+#: includes/class-bomcas-calc-account.php:123
+msgid "Promotions"
+msgstr ""
+
+#: includes/class-bomcas-calc-account.php:125
+msgid "Promotions could not be loaded. You can still enter a code on the store checkout."
+msgstr ""
+
+#: includes/class-bomcas-calc-account.php:127
+msgid "There are currently no promotions available."
+msgstr ""
+
+#: includes/class-bomcas-calc-account.php:139
+msgid "Check the box before checkout. The site address and email are sent only when you agree."
+msgstr ""
+
+#: includes/class-bomcas-calc-account.php:149
+msgid "Period"
+msgstr ""
+
+#: includes/class-bomcas-calc-account.php:150
+msgid "Coupon"
+msgstr ""
+
+#: includes/class-bomcas-calc-account.php:152
+msgid "Email for the receipt"
+msgstr ""
+
+#: includes/class-bomcas-calc-account.php:153
+msgid "Send this site address and the email above to the store, and open checkout. I agree to the licence terms on the store."
+msgstr ""
+
+#: includes/class-bomcas-calc-account.php:155
+msgid "Buy"
+msgstr ""
+
+#: includes/class-bomcas-calc-account.php:158
+msgid "Connect a licence"
+msgstr ""
+
+#: includes/class-bomcas-calc-account.php:162
+msgid "Licence key"
+msgstr ""
+
+#: includes/class-bomcas-calc-account.php:163
+msgid "Licence server"
+msgstr ""
+
+#: includes/class-bomcas-calc-account.php:164
+msgid "Leave this empty to use https://accountantsexpert.com. A saved address, the BOMCAS_STORE_URL constant, or the bomcas_store_url filter replaces that default. This site is used only when Accountants Expert Licensing is active here."
+msgstr ""
+
+#: includes/class-bomcas-calc-account.php:166
+msgid "Connect"
+msgstr ""
+
+#: includes/class-bomcas-calc-account.php:169
+msgid "After you buy"
+msgstr ""
+
+#: includes/class-bomcas-calc-account.php:170
+msgid "Lite does not install Pro. Open My Account on the store, download the Pro zip, then upload it under Plugins → Add New. Paste the licence key into Pro."
+msgstr ""
+
+#: includes/class-bomcas-calc-account.php:171
+msgid "Open My Account"
+msgstr ""
+
+#: includes/class-bomcas-calc-account.php:289
+msgid "You cannot upgrade from this site."
+msgstr ""
+
+#: includes/class-bomcas-calc-account.php:351
+msgid "You cannot connect a licence."
+msgstr ""
+
+#: includes/class-bomcas-calc-copy.php:44
+msgid "A newer explanation is available for this page. Your saved text is what visitors read."
+msgstr ""
+
+#: includes/class-bomcas-calc-copy.php:70
+#: includes/class-bomcas-trust.php:215
+msgid "Item"
+msgstr ""
+
+#: includes/class-bomcas-calc-copy.php:70
+msgid "Figure"
+msgstr ""
+
+#. translators: %s: a name, amount, count, or year.
+#: includes/class-bomcas-calc-copy.php:78
+#, php-format
+msgid "Questions about %s"
+msgstr ""
+
+#: includes/class-bomcas-calc-copy.php:82
+msgid "Related calculators"
+msgstr ""
+
+#: includes/class-bomcas-calc-copy.php:177
+#: includes/class-bomcas-leads.php:428
+msgid "All calculators"
+msgstr ""
+
+#. translators: %s: a name, amount, count, or year.
+#: includes/class-bomcas-calc-copy.php:182
+#, php-format
+msgid "%s income tax"
+msgstr ""
+
+#. translators: %s: a name, amount, count, or year.
+#: includes/class-bomcas-calc-copy.php:187
+#, php-format
+msgid "%s sales tax"
+msgstr ""
+
+#: includes/class-bomcas-calc-copy.php:193
+#: templates/calculator-page.php:42
+msgid "Get the plugin"
+msgstr ""
+
+#. translators: %s: a name, amount, count, or year.
+#: includes/class-bomcas-calc-copy.php:200
+#, php-format
+msgid "%s figures used on this page"
+msgstr ""
+
+#: includes/class-bomcas-calc-copy.php:201
+msgid "source was reviewed {updated}."
+msgstr ""
+
+#. translators: %s: a name, amount, count, or year.
+#: includes/class-bomcas-calc-copy.php:205
+#, php-format
+msgid "Last reviewed {updated} for %s."
+msgstr ""
+
+#. translators: 1: place, 2: wage, 3: tax
+#: includes/class-bomcas-calc-copy.php:422
+#, php-format
+msgid "On a %1$s illustration of %2$s in wages, the provincial brackets on this page produce about %3$s before credits that are not listed."
+msgstr ""
+
+#: includes/class-bomcas-calc-copy.php:496
+msgid "Calculators · Page content"
+msgstr ""
+
+#: includes/class-bomcas-calc-copy.php:498
+msgid "Edits are stored apart from the published default. A plugin update does not replace them. Reset restores the default."
+msgstr ""
+
+#: includes/class-bomcas-calc-copy.php:502
+msgid "Choose a page"
+msgstr ""
+
+#: includes/class-bomcas-calc-copy.php:515
+msgid "Heading"
+msgstr ""
+
+#: includes/class-bomcas-calc-copy.php:515
+msgid "Replaces the heading under the breadcrumb."
+msgstr ""
+
+#: includes/class-bomcas-calc-copy.php:516
+msgid "Intro"
+msgstr ""
+
+#: includes/class-bomcas-calc-copy.php:517
+#: includes/class-bomcas-stats.php:294
+msgid "Button label"
+msgstr ""
+
+#: includes/class-bomcas-calc-copy.php:519
+msgid "Search title"
+msgstr ""
+
+#: includes/class-bomcas-calc-copy.php:520
+msgid "Search description"
+msgstr ""
+
+#: includes/class-bomcas-calc-copy.php:521
+msgid "Extra sections"
+msgstr ""
+
+#: includes/class-bomcas-calc-copy.php:523
+msgid "Search title, description, and extra sections are edited when Pro is active."
+msgstr ""
+
+#: includes/class-bomcas-calc-copy.php:525
+msgid "Preview the page"
+msgstr ""
+
+#: includes/class-bomcas-calc-copy.php:527
+msgid "Save page content"
+msgstr ""
+
+#: includes/class-bomcas-calc-copy.php:528
+msgid "Reset to default"
+msgstr ""
+
+#: includes/class-bomcas-calc-copy.php:539
+msgid "You cannot edit this page."
+msgstr ""
+
+#: includes/class-bomcas-calc-privacy.php:144
+msgid "Unlock PIN"
+msgstr ""
+
+#: includes/class-bomcas-calc-privacy.php:145
+msgid "Unlock"
+msgstr ""
+
+#: includes/class-bomcas-calc-privacy.php:148
+msgid "Licence details are hidden on this site."
+msgstr ""
+
+#: includes/class-bomcas-calc-privacy.php:157
+msgid "White-label · version "
+msgstr ""
+
+#: includes/class-bomcas-calc-privacy.php:158
+msgid "Visible"
+msgstr ""
+
+#: includes/class-bomcas-calc-privacy.php:162
+msgid "Hide licence and account"
+msgstr ""
+
+#: includes/class-bomcas-calc-privacy.php:167
+msgid "Hide licence and account from this site"
+msgstr ""
+
+#: includes/class-bomcas-calc-privacy.php:167
+msgid "Client users who are not on the allow list no longer see the key or the account screen."
+msgstr ""
+
+#: includes/class-bomcas-calc-privacy.php:169
+msgid "A configuration constant locks this on. Client administrators cannot turn it off."
+msgstr ""
+
+#: includes/class-bomcas-calc-privacy.php:171
+msgid "Allowed user IDs"
+msgstr ""
+
+#: includes/class-bomcas-calc-privacy.php:172
+msgid "Or capability"
+msgstr ""
+
+#: includes/class-bomcas-calc-privacy.php:173
+msgid "New unlock PIN (leave blank to keep)"
+msgstr ""
+
+#: includes/class-bomcas-calc-privacy.php:174
+msgid "Menu label"
+msgstr ""
+
+#: includes/class-bomcas-calc-privacy.php:175
+msgid "Hide BOMCAS Canada in the plugin list"
+msgstr ""
+
+#: includes/class-bomcas-calc-privacy.php:176
+msgid "Agency email for renewal mail"
+msgstr ""
+
+#: includes/class-bomcas-calc-privacy.php:178
+msgid "Save privacy"
+msgstr ""
+
+#: includes/class-bomcas-calc-privacy.php:188
+msgid "You cannot change this."
+msgstr ""
+
+#: includes/class-bomcas-calc-privacy.php:218
+msgid "You cannot unlock this."
+msgstr ""
+
+#: includes/class-bomcas-calc-privacy.php:245
+#: includes/class-bomcas-docs.php:361
+#: includes/class-bomcas-docs.php:362
+#: includes/class-bomcas-docs.php:392
+msgid "Calculators"
+msgstr ""
+
+#: includes/class-bomcas-calc-privacy.php:246
+msgid "Calculators."
+msgstr ""
+
+#: includes/class-bomcas-calc-privacy.php:277
+msgid "Manage account"
+msgstr ""
+
+#: includes/class-bomcas-calc-view.php:77
+msgid "Print / Save PDF report"
+msgstr ""
+
+#: includes/class-bomcas-calc-view.php:78
+#: includes/class-bomcas-i18n.php:128
+msgid "Download PDF"
+msgstr ""
+
+#: includes/class-bomcas-calc-view.php:79
+msgid "Copy link"
+msgstr ""
+
+#: includes/class-bomcas-calc-view.php:80
+msgid "Reset"
+msgstr ""
+
+#: includes/class-bomcas-calc-view.php:82
+msgid "What you type stays in this browser. It is not sent to the server."
+msgstr ""
+
+#: includes/class-bomcas-calc-view.php:83
+msgid "Tax estimate"
+msgstr ""
+
+#: includes/class-bomcas-calc-view.php:84
+msgid "These figures are an estimate. They are not a tax return."
+msgstr ""
+
+#: includes/class-bomcas-calc-view.php:240
+msgid "Tax on 100"
+msgstr ""
+
+#: includes/class-bomcas-calc-view.php:263
+msgid "Federal tax on 80,000 of employment income"
+msgstr ""
+
+#: includes/class-bomcas-calc-view.php:264
+msgid "Provincial tax"
+msgstr ""
+
+#: includes/class-bomcas-calc-view.php:265
+msgid "Total tax"
+msgstr ""
+
+#: includes/class-bomcas-calc-view.php:357
+msgid "Rates used"
+msgstr ""
+
+#: includes/class-bomcas-calc-view.php:376
+msgid "Omitted on purpose: a local fee, an exempt or zero-rated supply, and any income-tax credit. This screen does not estimate income tax. A missing amount is left unavailable rather than shown as zero."
+msgstr ""
+
+#: includes/class-bomcas-calc-view.php:378
+msgid "Omitted on purpose: a claim code, a taxable benefit, and a bonus you did not enter. A missing amount is left unavailable rather than shown as zero."
+msgstr ""
+
+#: includes/class-bomcas-calc-view.php:380
+msgid "Quebec regular-payment withholding uses TP-1015.F-V when that edition is loaded. A gratuity is not calculated."
+msgstr ""
+
+#: includes/class-bomcas-calc-view.php:383
+msgid "A British Columbia pay dated on or after the July date in the rate file uses that July withholding rate. The annual return does not."
+msgstr ""
+
+#: includes/class-bomcas-calc-view.php:386
+msgid "Partial estimate only, not tax or legal advice, and not an official deduction or assessment. Omitted on purpose: spouse and dependant amounts, age, pension and disability amounts, tuition, medical expenses, donations, provincial dividend tax credits, and Quebec refundable credits. EI premiums are not deductible. Only the enhanced portion of CPP is. A missing amount is left unavailable rather than shown as zero."
+msgstr ""
+
+#: includes/class-bomcas-calc-view.php:390
+msgid "Sales tax here is the general rate on a standard taxable supply. It does not cover vehicles, real property, new housing, zero-rated or exempt supplies, or place-of-supply exceptions."
+msgstr ""
+
+#: includes/class-bomcas-calc-view.php:393
+msgid "Calculator by"
+msgstr ""
+
+#: includes/class-bomcas-docs.php:86
+msgid "Help · version "
+msgstr ""
+
+#: includes/class-bomcas-docs.php:87
+msgid "Guide"
+msgstr ""
+
+#: includes/class-bomcas-docs.php:105
+msgid "Help and documentation"
+msgstr ""
+
+#: includes/class-bomcas-docs.php:106
+msgid "These articles are part of the plugin. They open here in wp-admin and do not call another site."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:109
+msgid "Search the guide"
+msgstr ""
+
+#: includes/class-bomcas-docs.php:110
+#: includes/class-bomcas-leads.php:425
+msgid "Search"
+msgstr ""
+
+#: includes/class-bomcas-docs.php:124
+msgid "No articles match that search."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:144
+msgid "All articles"
+msgstr ""
+
+#: includes/class-bomcas-docs.php:184
+msgid "The note is saved on this site and a copy was mailed to the site administrator."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:186
+msgid "Write a note"
+msgstr ""
+
+#: includes/class-bomcas-docs.php:190
+msgid "Subject"
+msgstr ""
+
+#: includes/class-bomcas-docs.php:191
+msgid "What happened"
+msgstr ""
+
+#: includes/class-bomcas-docs.php:192
+msgid "Save the note"
+msgstr ""
+
+#: includes/class-bomcas-docs.php:196
+msgid "Notes on this site"
+msgstr ""
+
+#: includes/class-bomcas-docs.php:209
+msgid "You cannot save a support note."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:257
+msgid "Today"
+msgstr ""
+
+#: includes/class-bomcas-docs.php:258
+msgid "Effective dates"
+msgstr ""
+
+#: includes/class-bomcas-docs.php:259
+msgid "Newest year"
+msgstr ""
+
+#: includes/class-bomcas-docs.php:260
+msgid "Page tokens"
+msgstr ""
+
+#: includes/class-bomcas-docs.php:263
+msgid "Amount you type"
+msgstr ""
+
+#: includes/class-bomcas-docs.php:264
+msgid "Browser engine"
+msgstr ""
+
+#: includes/class-bomcas-docs.php:265
+msgid "Rate file"
+msgstr ""
+
+#: includes/class-bomcas-docs.php:266
+msgid "Estimate"
+msgstr ""
+
+#: includes/class-bomcas-docs.php:269
+msgid "Bundled file"
+msgstr ""
+
+#: includes/class-bomcas-docs.php:270
+msgid "Your override"
+msgstr ""
+
+#: includes/class-bomcas-docs.php:271
+msgid "Pushed package"
+msgstr ""
+
+#: includes/class-bomcas-docs.php:272
+msgid "Live page"
+msgstr ""
+
+#: includes/class-bomcas-docs.php:306
+msgid "How to use this guide"
+msgstr ""
+
+#: includes/class-bomcas-docs.php:307
+#: includes/class-bomcas-docs.php:324
+#: includes/class-bomcas-docs.php:342
+msgid "Start"
+msgstr ""
+
+#: includes/class-bomcas-docs.php:308
+msgid "Search, open an article, and jump here from any calculator screen."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:310
+msgid "The guide is stored in the plugin. Opening an article does not contact BOMCAS, a payment service, or a rate server."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:311
+msgid "Use the search box to match a title or a sentence. Each other admin screen has a Learn more link to the article for that screen. Some field tips include the same link."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:314
+msgid "Calculators → Help is this index."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:315
+msgid "An article stays available when the site is offline."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:316
+msgid "Support notes you write are saved on this site."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:323
+msgid "About"
+msgstr ""
+
+#: includes/class-bomcas-docs.php:325
+msgid "Who writes BOMCAS Tax Calculators – Canada."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:327
+msgid "BOMCAS Tax Calculators – Canada is a Canadian tax and payroll plugin for WordPress. Developed by BOMCAS, owned by Dellendo Farquharson."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:328
+msgid "The calculators are estimates for the year stored in the rate file. They are not a filing, a ruling, or a Canada Revenue Agency service. What a visitor types stays in the browser unless they later ask for an email or a PDF."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:333
+msgid "Publisher site"
+msgstr ""
+
+#: includes/class-bomcas-docs.php:341
+msgid "Getting started"
+msgstr ""
+
+#: includes/class-bomcas-docs.php:343
+msgid "Install, run the setup wizard, and place the first calculator."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:345
+#: includes/class-bomcas-listing.php:552
+msgid "Install"
+msgstr ""
+
+#: includes/class-bomcas-docs.php:346
+msgid "Upload the plugin zip from Plugins → Add New, or copy the folder into wp-content/plugins, then activate BOMCAS Tax Calculators – Canada. The calculators run without an account. A licence is optional and is only for updates and support on the paid add-on."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:347
+msgid "Setup wizard"
+msgstr ""
+
+#: includes/class-bomcas-docs.php:348
+msgid "Calculators → Setup asks for a country focus, an optional industry pack, and a booking page. Country focus is a label for the wizard. It does not hide the other country and it does not decide which pages get created. Leave both country toggles on unless you mean to hide a country."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:351
+msgid "Add a calculator with the shortcode or the block. The visitor’s numbers stay in the browser."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:352
+msgid "Turn the credit on under Settings only if you want the BOMCAS Canada line. It is off until you save it."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:353
+msgid "Open Overview for the licence state, the rate vintage, and recent leads."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:363
+msgid "What each calculator does, and which official table it reads."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:365
+msgid "Every estimate is computed in the visitor’s browser from the rate file for the year in force. The result is not a filing, a ruling, or a Canada Revenue Agency service. Credits and residency that the form does not ask for are left out."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:367
+#: includes/class-bomcas-leads.php:429
+#: includes/class-bomcas-listing.php:249
+#: includes/class-bomcas-rates-admin.php:148
+msgid "Sales tax"
+msgstr ""
+
+#: includes/class-bomcas-docs.php:368
+msgid "Adds or removes GST, HST, PST, or QST on a standard taxable amount for the date you enter. Nova Scotia’s change of rate is a dated segment in the sales-tax file, so a date before that day uses the earlier rate. Vehicles, real property, and exempt supplies are not covered."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:369
+#: includes/class-bomcas-leads.php:430
+#: includes/class-bomcas-listing.php:242
+#: includes/class-bomcas-rates-admin.php:147
+msgid "Income tax"
+msgstr ""
+
+#: includes/class-bomcas-docs.php:370
+msgid "Canadian income tax applies the federal and provincial brackets, the basic personal amounts, and the payroll contributions that the personal-tax file lists for employment income. Quebec includes the federal abatement. Ontario includes surtax and the health premium. British Columbia includes the tax reduction."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:371
+msgid "Payroll, paycheck, and take-home pay"
+msgstr ""
+
+#: includes/class-bomcas-docs.php:372
+msgid "A Canadian cheque uses the pension and employment-insurance factors in the rate file, then the income-tax estimate divided by the number of pays. A British Columbia pay date on or after the July date stored in the dataset uses the July withholding rate from that same row, not the annual return rate."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:373
+msgid "Vehicle, land transfer, and mortgage"
+msgstr ""
+
+#: includes/class-bomcas-docs.php:374
+msgid "Vehicle purchase uses the sales-tax rules for a dealer sale or a private purchase on the date you enter. Land transfer is estimated for British Columbia and Ontario from the published tables. The mortgage calculator uses the interest rate you type and the compounding convention you select. It does not look up a lender rate."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:379
+msgid "Canada Revenue Agency individual income tax rates"
+msgstr ""
+
+#: includes/class-bomcas-docs.php:383
+msgid "Canada Revenue Agency GST/HST"
+msgstr ""
+
+#: includes/class-bomcas-docs.php:393
+msgid "Hide a country or a single calculator without deleting pages."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:395
+msgid "Calculators → Toggles has a switch for Canada and a switch for each tool. Turning a tool off removes it from shortcodes and blocks. Existing pages stay published."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:396
+msgid "Setup → Country focus does not change these switches. Leave both countries on when the site should offer both. The preset that creates missing pages reads this list only to decide what a shortcode may render, not which pages to insert."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:403
+msgid "Edit a cell, import a sheet, and publish a new year without editing pages."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:405
+msgid "Calculators → Rates shows one slice of a rate file: country, jurisdiction, rate type, and tax year. An empty cell does not create an override. A value you change is stored apart from the bundled file, so a plugin update does not wipe it."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:407
+msgid "Import and export"
+msgstr ""
+
+#: includes/class-bomcas-docs.php:410
+msgid "Export writes the current slice as CSV, Excel, or the JSON override list."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:411
+msgid "An import starts as a dry run. Apply it only after the row errors are empty."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:412
+msgid "Each row needs a file name, a path such as jurisdictions/BC/0/pst, and a number."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:413
+msgid "JSON pasted into Import overrides replaces matching paths. It does not delete a path you leave out."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:416
+msgid "Pushed updates and the year in force"
+msgstr ""
+
+#: includes/class-bomcas-docs.php:417
+msgid "A signed package can be pulled when Pro is active or when Lite opt-in is saved. Your override still wins until you clear it. The year shown on pages is the newest year in the personal-tax file whose effective date is today or earlier. Year shown on calculator pages overrides that. Leave the box empty to stay automatic."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:418
+msgid "If the calendar year is not in the file yet, pages name the latest year as the latest on file and wp-admin shows a warning. They do not present that older year as the current calendar year. Adding the new year updates every marked page on the next view. Saving, importing, pulling, or publishing rates also clears the page cache."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:424
+msgid "Token reference"
+msgstr ""
+
+#: includes/class-bomcas-docs.php:426
+msgid "Placeholders that become the current rate, amount, or date."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:428
+msgid "A token is a placeholder in curly braces. The page replaces it when someone views the page. The stored text keeps the token, so next year’s file changes the number without a page edit."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:431
+msgid "{year} is the year in force. {year_label} adds “latest rates on file” when this calendar year is missing."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:432
+msgid "{updated} is the month the dataset was verified. {effective} is the date those rates took effect."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:433
+msgid "{bpa:BC} is that province’s basic personal amount. Use FED for the federal amount."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:434
+msgid "{rate:BC.income.first} and {rate:BC.income.top} are bracket rates, written as a percent."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:435
+msgid "{example:BC.income.42000.total} runs the engine. The 42000 is the wage you want illustrated, not a stored answer."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:436
+msgid "{deadline:balance_due} and {source:us.federal} read the calendar and the source title in the rate file."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:439
+msgid "On Page content, click the field, then a token button. Hover the button for the meaning. The same tokens work in a heading, an intro, a search title, a search description, and extra sections."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:444
+msgid "Page content and SEO"
+msgstr ""
+
+#: includes/class-bomcas-docs.php:445
+#: includes/class-bomcas-docs.php:456
+#: includes/class-bomcas-docs.php:473
+msgid "Pages"
+msgstr ""
+
+#: includes/class-bomcas-docs.php:446
+msgid "Change a heading or add sections without losing them on update."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:448
+msgid "Calculators → Page content lists pages marked as calculator pages. Heading, intro, and button label replace those parts only. Extra sections, when Pro is active, replace the generated guide and keep your HTML."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:449
+msgid "Search title and search description are used for the document title and the meta description when you fill them in. Leave them blank to keep the generated title. Put tokens in any of these fields when the sentence includes a year or an amount."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:450
+msgid "Reset to default deletes only that page’s edit record. It does not delete the page. A plugin update never writes over a saved edit. If the generated guide has changed since you saved, and you did not write extra sections, the page shows a short note that a newer default exists."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:455
+msgid "Shortcodes, blocks, and the builder"
+msgstr ""
+
+#: includes/class-bomcas-docs.php:457
+msgid "Put a calculator in a page, a block, or a builder layout."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:459
+msgid "The shortcode is [bomcas_calculator id=\"income-tax\" province=\"BC\"]. The id is income-tax, sales-tax, or mortgage-payment. The province code presets the place. Payroll and take-home pay on the Professional and Agency plans use [bomcas_calculator_pro id=\"payroll-deductions\" province=\"BC\"]. Personal does not include payroll."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:460
+msgid "The block inserter lists BOMCAS Calculator. It stores the same id and place. The builder screen, when the add-on is active, lays out fields for a custom calculator. Numbers the visitor types are still not posted unless they ask for an email or a PDF."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:463
+msgid "A disabled tool renders nothing."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:464
+msgid "The hero button on a managed calculator page goes to a service page, not to the contact page."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:465
+msgid "Managed pages keep the shortcode in the database. The long guide is added at view time."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:472
+msgid "Embed kit"
+msgstr ""
+
+#: includes/class-bomcas-docs.php:474
+msgid "Frame a calculator on another site you control."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:476
+msgid "The embed screen is part of the optional add-on. List the host names that may load the frame, one per line. The snippet is an iframe or a script tag with a signature for that host and tool. A domain that is not on the list is refused."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:477
+msgid "White-label can hide the credit inside the frame. The calculator still runs in the browser. Do not put a secret key in the snippet. The signature is a permission for that domain, not a licence key."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:482
+msgid "Leads and integrations"
+msgstr ""
+
+#: includes/class-bomcas-docs.php:483
+#: includes/class-bomcas-docs.php:494
+#: includes/class-bomcas-docs.php:503
+#: includes/class-bomcas-docs.php:512
+msgid "Visitors"
+msgstr ""
+
+#: includes/class-bomcas-docs.php:484
+msgid "The email form, what is stored, and where a copy can be sent."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:486
+msgid "The email form under an estimate is off until you enable it on the Leads screen. A lead stores the name, email, calculator, and the result the visitor chose to send. Amounts they typed stay out of the server unless that form is sent. Old leads are deleted after the retention you set. One network address can send only so many leads an hour."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:487
+msgid "The consent sentence is required. Extra questions are one per line. A copy of each lead can be mailed to the notify address. Webhooks, Mailchimp, HubSpot, and Google Sheets are filled in on this screen when the add-on is active. Lite keeps the lead list either way."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:488
+msgid "Usage counts how often a calculator is opened. It does not store the amounts. Filter the lead list by name, email, or calculator id. Delete removes that row."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:495
+msgid "How often each calculator is opened."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:497
+msgid "Calculators → Usage counts openings. It does not record wages, prices, or other amounts the visitor typed. The overview chart uses the same counts for the last 30 days. An empty chart means nothing has been opened in that window."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:504
+msgid "A button, or an embedded scheduler, after a result."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:506
+msgid "Set the button label, the provider name, and the URL of the scheduling page. Blank URL hides the button. Lite shows the button. The add-on can also embed the scheduler on the page. The booking URL is the page you already use. This plugin does not create appointments by itself."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:513
+msgid "French and Spanish labels on the calculator."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:515
+msgid "The language switch is a control on the calculator. It changes the labels shipped with the plugin. It does not translate your page content. A switch requires the matching nonce, so a bare link cannot flip the language. Currency display can follow the locale, including es-MX with USD, from this screen."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:516
+msgid "Rate figures stay in the dataset’s units. Translating a label does not change a bracket."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:522
+#: includes/class-bomcas-docs.php:531
+#: includes/class-bomcas-docs.php:549
+#: includes/class-bomcas-docs.php:560
+#: includes/class-bomcas-docs.php:571
+msgid "Site"
+msgstr ""
+
+#: includes/class-bomcas-docs.php:523
+msgid "Industry landing pages you choose to publish."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:525
+msgid "A pack is a set of landing pages for an industry. Nothing is published until you select a pack and publish it. Publishing can replace a pack page that already exists, so leave this screen alone during an ordinary plugin update. The setup wizard can point at a pack. Choosing none leaves your pages as they are."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:532
+msgid "Hide the licence and the BOMCAS name on a client site."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:534
+msgid "Calculators → White-label hides the licence key, the plan, and the account screen from users who are not on the allow list. Allowed user IDs are comma-separated. A capability can be used instead. An optional PIN is stored as a hash and is not shown again. People who are hidden see a short unlock form, not the key."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:537
+msgid "Menu label replaces the Calculators name in the left menu."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:538
+msgid "Hide BOMCAS Canada in the plugin list when the client should not see the vendor name."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:539
+msgid "Agency email is used for renewal mail instead of the BOMCAS address."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:540
+msgid "A configuration constant can lock hiding on, so a client administrator cannot turn it off."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:543
+msgid "The calculators keep working while the licence is hidden. Hiding it does not delete the key."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:550
+msgid "An optional licence for updates. The calculators do not require one."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:552
+msgid "Lite runs sales tax, income tax, and the mortgage calculator with no purchase. Calculators → Account stores a licence key for the optional add-on. The key is saved on this site and is not printed in the page source afterwards. White-label can hide this screen."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:553
+msgid "The add-on keeps calculating if a subscription lapses. A licence is how the site receives add-on updates and support. It does not switch the calculators off, and it does not stop you from changing the GPL code. Plan names on the overview are Personal, Professional, and Agency. Billing itself is handled by the site that sold the licence, not by a call from this screen."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:554
+msgid "The Pro settings screen shows the update entitlement and a link to the hosted billing page when one has been saved. Pasting a key here does not charge a card."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:559
+msgid "Privacy and accessibility"
+msgstr ""
+
+#: includes/class-bomcas-docs.php:561
+msgid "What stays in the browser, and how the screens are meant to be used."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:563
+msgid "Calculator inputs stay in the browser. They are not posted, not stored in a cookie, and not sent to an analytics host unless you separately add a measurement id. A lead or a PDF is created only when the visitor asks. The optional credit is a link you turn on. The plugin does not phone home for calculator use."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:564
+msgid "Trust screen"
+msgstr ""
+
+#: includes/class-bomcas-docs.php:565
+msgid "Calculators → Trust records the day you checked an official source. Do not invent that date. The public pages name the source next to the figures. Colour contrast on the admin screens uses the navy, blue, and orange palette, and form fields have visible labels. Tips are buttons that show their text on hover and on focus, so they are available from the keyboard."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:570
+msgid "Caching"
+msgstr ""
+
+#: includes/class-bomcas-docs.php:572
+msgid "Why a static cache must be cleared when rates change."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:574
+msgid "WP Fastest Cache stores a copy of the HTML. A token would otherwise stay frozen at the year that was current when the copy was made. The plugin clears that cache when you save a rate override, apply an import, pull a package, or publish a draft. WP Rocket is cleared too when that plugin is active."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:575
+msgid "The daily job also clears the cache on 1 January and on any effective date in the personal-tax file or any sales-tax segment start. That is the day the year in force can change without anyone editing a page. If a host uses a different cache, clear the calculator pages after you import a new year."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:581
+msgid "Troubleshooting and FAQ"
+msgstr ""
+
+#: includes/class-bomcas-docs.php:582
+#: includes/class-bomcas-docs.php:605
+#: includes/class-bomcas-docs.php:621
+msgid "Support"
+msgstr ""
+
+#: includes/class-bomcas-docs.php:583
+msgid "The checks to make before you write a support note."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:585
+msgid "A page still shows last year’s number"
+msgstr ""
+
+#: includes/class-bomcas-docs.php:586
+msgid "Confirm the new year is in the rate file and that its effective date is today or earlier. Clear the page cache. A buyer’s extra sections are shown instead of the generated guide, so those sections need tokens if they name a year."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:587
+msgid "A calculator is blank"
+msgstr ""
+
+#: includes/class-bomcas-docs.php:588
+msgid "Check Toggles. A disabled tool renders nothing. Confirm the shortcode id is one of the shipped tools and the place code matches the file, such as BC or CA."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:589
+msgid "A calculator page was not created"
+msgstr ""
+
+#: includes/class-bomcas-docs.php:590
+msgid "Country focus does not create them. On the add-on’s preset screen, use Add the next few pages. Each click adds a few missing pages and skips any address that already exists."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:591
+msgid "The hero button"
+msgstr ""
+
+#: includes/class-bomcas-docs.php:592
+msgid "It opens a service page for that kind of work. It does not open the contact page or the calculator page itself."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:595
+msgid "Does the plugin store what a visitor types? Only if they send the email form or download a PDF."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:596
+msgid "Can I show a credit? Yes. Settings has one unchecked box."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:597
+msgid "Will an update replace my page text? No. Saved edits stay."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:604
+msgid "Changelog"
+msgstr ""
+
+#: includes/class-bomcas-docs.php:606
+msgid "What changed in this plugin."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:608
+msgid "1.0.5"
+msgstr ""
+
+#: includes/class-bomcas-docs.php:609
+msgid "Shorter calculator heroes, a long guide under each calculator, and figures that come from the rate dataset through tokens. This guide was added. Saving rates clears the page cache."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:610
+msgid "1.0.4"
+msgstr ""
+
+#: includes/class-bomcas-docs.php:611
+msgid "Overview chart for the last 30 days. Settings screens use one label-above form. Activation does not create or edit pages."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:612
+msgid "1.0.3"
+msgstr ""
+
+#: includes/class-bomcas-docs.php:613
+msgid "Guide-page layout and one-sentence descriptions. Rate tables stay in the plugin unless an administrator opts in."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:614
+msgid "1.0.2 and earlier"
+msgstr ""
+
+#: includes/class-bomcas-docs.php:615
+msgid "1.0.2 put the calculator before the rate table. 1.0.1 used the banner artwork. 1.0.0 shipped sales tax, income tax, and the mortgage payment."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:620
+msgid "Support notes"
+msgstr ""
+
+#: includes/class-bomcas-docs.php:622
+msgid "Record a problem on this site. Nothing is sent to a ticket service."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:624
+msgid "Write the subject and what happened. The note is stored in this site’s database and a copy is mailed to the WordPress administrator address. The form does not call an outside help desk. Include the page address and the calculator id. Do not paste a secret key or a visitor’s full return."
+msgstr ""
+
+#: includes/class-bomcas-docs.php:625
+msgid "Read Troubleshooting first. Many blank calculators are a toggle, a shortcode id, or a cached page."
+msgstr ""
+
+#: includes/class-bomcas-elementor-widget.php:28
+msgid "BOMCAS calculator"
+msgstr ""
+
+#: includes/class-bomcas-guide.php:409
+#: includes/class-bomcas-guide.php:410
+msgid "the rate on file"
+msgstr ""
+
+#: includes/class-bomcas-i18n.php:86
+msgid "Language"
+msgstr ""
+
+#: includes/class-bomcas-i18n.php:88
+msgid "English"
+msgstr ""
+
+#: includes/class-bomcas-i18n.php:89
+msgid "French"
+msgstr ""
+
+#: includes/class-bomcas-i18n.php:90
+msgid "Spanish"
+msgstr ""
+
+#: includes/class-bomcas-i18n.php:116
+msgid "In Quebec, the estimate uses the Quebec Pension Plan (QPP, RRQ), the Quebec Parental Insurance Plan (QPIP, RQAP), and the Quebec sales tax (QST, TVQ)."
+msgstr ""
+
+#: includes/class-bomcas-i18n.php:127
+msgid "Sent. Check your inbox."
+msgstr ""
+
+#: includes/class-bomcas-i18n.php:129
+msgid "Sending…"
+msgstr ""
+
+#: includes/class-bomcas-i18n.php:153
+msgid "Calculators · Languages"
+msgstr ""
+
+#: includes/class-bomcas-i18n.php:155
+msgid "Each calculator has an English, French (Canada) and Spanish (US) switch. Amounts use that locale. Quebec pages name RRQ, RQAP and TVQ in French."
+msgstr ""
+
+#: includes/class-bomcas-i18n.php:160
+msgid "English (en_CA) is the default."
+msgstr ""
+
+#: includes/class-bomcas-i18n.php:161
+msgid "French (fr_CA) uses RRQ for the Quebec Pension Plan, RQAP for parental insurance, and TVQ for Quebec sales tax."
+msgstr ""
+
+#: includes/class-bomcas-i18n.php:162
+msgid "Spanish (es_MX)."
+msgstr ""
+
+#: includes/class-bomcas-i18n.php:163
+msgid "Translated text comes from translate.wordpress.org language packs. Until a pack is published for a language, the calculator text stays in English."
+msgstr ""
+
+#: includes/class-bomcas-i18n.php:163
+msgid "Visitors pick a language on the calculator. The choice is kept for this site."
+msgstr ""
+
+#: includes/class-bomcas-leads.php:76
+msgid "I agree to receive this estimate by email. I can unsubscribe at any time."
+msgstr ""
+
+#: includes/class-bomcas-leads.php:96
+#: includes/class-bomcas-leads.php:108
+msgid "Email me my results"
+msgstr ""
+
+#: includes/class-bomcas-leads.php:99
+#: includes/class-bomcas-leads.php:444
+msgid "Email"
+msgstr ""
+
+#: includes/class-bomcas-leads.php:100
+msgid "Phone"
+msgstr ""
+
+#: includes/class-bomcas-leads.php:106
+msgid "Complete the captcha before sending."
+msgstr ""
+
+#: includes/class-bomcas-leads.php:290
+msgid "Estimate only. Not a tax return."
+msgstr ""
+
+#: includes/class-bomcas-leads.php:297
+msgid "Your tax estimate"
+msgstr ""
+
+#: includes/class-bomcas-leads.php:299
+msgid "New calculator lead"
+msgstr ""
+
+#: includes/class-bomcas-leads.php:400
+msgid "Calculators · Leads"
+msgstr ""
+
+#: includes/class-bomcas-leads.php:402
+msgid "The form is off until you enable it. A visitor is emailed only after they tick the consent box. Retention deletes old rows on the daily job."
+msgstr ""
+
+#: includes/class-bomcas-leads.php:406
+msgid "Lead form"
+msgstr ""
+
+#: includes/class-bomcas-leads.php:410
+msgid "Show the lead form"
+msgstr ""
+
+#: includes/class-bomcas-leads.php:410
+msgid "Off by default. The calculator still runs in the browser."
+msgstr ""
+
+#: includes/class-bomcas-leads.php:411
+msgid "Owner email"
+msgstr ""
+
+#: includes/class-bomcas-leads.php:411
+msgid "A copy of each lead is mailed here. The visitor reply-to is their own address."
+msgstr ""
+
+#: includes/class-bomcas-leads.php:412
+msgid "Keep leads for (days)"
+msgstr ""
+
+#: includes/class-bomcas-leads.php:412
+msgid "Older rows are deleted. Export before that if you need a copy."
+msgstr ""
+
+#: includes/class-bomcas-leads.php:413
+msgid "Max sends per hour"
+msgstr ""
+
+#: includes/class-bomcas-leads.php:413
+msgid "Limits repeats from the same network address. A hidden field catches simple bots."
+msgstr ""
+
+#: includes/class-bomcas-leads.php:414
+msgid "Consent sentence"
+msgstr ""
+
+#: includes/class-bomcas-leads.php:414
+msgid "CASL and CAN-SPAM need a clear agreement and a way to stop."
+msgstr ""
+
+#: includes/class-bomcas-leads.php:415
+msgid "Extra fields, one label per line"
+msgstr ""
+
+#: includes/class-bomcas-leads.php:415
+msgid "Each line becomes an extra question on the public form."
+msgstr ""
+
+#: includes/class-bomcas-leads.php:416
+msgid "reCAPTCHA secret (optional)"
+msgstr ""
+
+#: includes/class-bomcas-leads.php:416
+#: includes/class-bomcas-leads.php:417
+msgid "Leave blank to keep"
+msgstr ""
+
+#: includes/class-bomcas-leads.php:416
+msgid "Used only when a visitor sends the form. Leave empty to skip captcha."
+msgstr ""
+
+#: includes/class-bomcas-leads.php:417
+msgid "Turnstile secret (optional)"
+msgstr ""
+
+#: includes/class-bomcas-leads.php:417
+msgid "Cloudflare Turnstile is an alternative to reCAPTCHA. Leave empty to keep the saved secret."
+msgstr ""
+
+#: includes/class-bomcas-leads.php:419
+msgid "Save lead form"
+msgstr ""
+
+#: includes/class-bomcas-leads.php:425
+msgid "Name or email"
+msgstr ""
+
+#: includes/class-bomcas-leads.php:431
+#: includes/class-bomcas-listing.php:217
+#: includes/class-bomcas-listing.php:256
+msgid "Mortgage payment"
+msgstr ""
+
+#: includes/class-bomcas-leads.php:432
+#: includes/class-bomcas-rates-admin.php:149
+msgid "Payroll"
+msgstr ""
+
+#: includes/class-bomcas-leads.php:433
+#: includes/class-bomcas-listing.php:321
+msgid "Corporate tax"
+msgstr ""
+
+#: includes/class-bomcas-leads.php:440
+msgid "Filter"
+msgstr ""
+
+#: includes/class-bomcas-leads.php:441
+msgid "Export CSV"
+msgstr ""
+
+#: includes/class-bomcas-leads.php:442
+msgid "Export XLSX"
+msgstr ""
+
+#: includes/class-bomcas-leads.php:444
+msgid "Action"
+msgstr ""
+
+#: includes/class-bomcas-leads.php:448
+msgid "Delete"
+msgstr ""
+
+#: includes/class-bomcas-leads.php:451
+msgid "No leads yet."
+msgstr ""
+
+#: includes/class-bomcas-leads.php:455
+msgid "Integrations"
+msgstr ""
+
+#: includes/class-bomcas-leads.php:455
+msgid "Webhooks, Mailchimp, HubSpot and Google Sheets are part of Pro. Leads on this site keep working either way."
+msgstr ""
+
+#: includes/class-bomcas-leads.php:467
+msgid "You cannot edit leads."
+msgstr ""
+
+#: includes/class-bomcas-leads.php:497
+msgid "You cannot export leads."
+msgstr ""
+
+#: includes/class-bomcas-leads.php:532
+msgid "You cannot delete leads."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:25
+msgid "Built by BOMCAS Canada"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:25
+msgid "Owned by Dellendo Farquharson. Every figure is an estimate from the rate file. It is not a filing, a ruling, or a Canada Revenue Agency service."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:27
+msgid "Lite calculators"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:31
+msgid "Pro calculators"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:32
+msgid "The Pro add-on is a separate plugin. Lite does not prompt for it, lock a control, or install it."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:32
+msgid "See Pro"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:52
+msgid "Does this file a return?"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:53
+msgid "No. The figures are estimates. They are not a filing, a ruling, or a Canada Revenue Agency service. The plugin does not prepare a T1, a T2, a T4, or a remittance."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:56
+msgid "Where do the typed numbers go?"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:57
+msgid "The arithmetic runs in the browser. The form is not posted for the calculation. A view count is stored on your own WordPress site. An email, a PDF, or a Google event is sent only after you turn that option on and, for email or PDF, the visitor submits it."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:60
+msgid "Which tax year does income tax use?"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:61
+msgid "The newest year in the personal tax file whose start date is today or earlier. The file shipped with Lite is the 2026 personal tax year. A later file, imported under Calculators, Rates, is used on the next page view. Sales-tax segments in the file run from 2022 through 2026, and the date the visitor picks selects the segment."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:64
+msgid "Which places are covered?"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:65
+msgid "Canadian income tax and sales tax cover the federal tables and all 13 provinces and territories. Some Pro tools cover fewer places, and those limits are named on each calculator."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:68
+msgid "Does Lite include Canadian payroll?"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:69
+msgid "No. Canadian payroll deductions and salary after tax start on the Professional plan. Personal does not include them. Lite income tax does use the CPP, CPP2, EI, QPP, and QPIP amounts from the rate file when it works out credits. It does not show a paycheque."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:72
+msgid "What do the Pro plans cover?"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:73
+msgid "Personal is one site, Professional is five sites, and Agency is twenty-five sites. Prices are in Canadian dollars on the pricing page. The licence is for updates and support while it is active or in grace. The GPL code you already installed keeps running if the subscription ends."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:76
+msgid "How do I put a calculator on a page?"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:77
+msgid "Add the BOMCAS Tax Calculators – Canada block, or the shortcode [bomcas_calculator id=\"income-tax\" province=\"ON\"]. Pro tools use [bomcas_calculator_pro id=\"payroll-deductions\" province=\"ON\"]. The province code is optional. Income tax and sales tax default to British Columbia."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:80
+msgid "Which WordPress version does it need?"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:81
+msgid "Lite requires WordPress 6.2 or newer. Pro requires WordPress 6.5 or newer, because it declares Lite as a required plugin. Both require PHP 7.4 or newer."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:84
+msgid "Does it work with my theme?"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:85
+msgid "Yes. The calculator is a block and a shortcode. It does not replace your theme, your header, or your styles outside its own form. It has been checked on the Accountants Expert theme and on a default block theme."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:88
+msgid "Does it work in the block editor?"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:89
+msgid "Yes. Search the block inserter for BOMCAS Tax Calculators – Canada. Choose income tax, sales tax, or a mortgage payment, and optionally a province. Payroll blocks are not in Lite."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:92
+msgid "Can I use a shortcode instead of a block?"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:93
+msgid "Yes. Paste [bomcas_calculator id=\"sales-tax\" province=\"BC\"] into a shortcode block or the classic editor. The ids in Lite are income-tax, sales-tax, and mortgage-payment."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:96
+msgid "Does it work with Elementor, Beaver Builder, or another page builder?"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:97
+msgid "Yes, where the builder can place a WordPress block or a shortcode. Use the builder’s shortcode widget if it does not list the block. The calculation still runs in the visitor’s browser."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:100
+msgid "Does it work on WordPress Multisite?"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:101
+msgid "Yes. Activate it on the sites that should show a calculator. A Pro licence counts each site address you activate. Network activation is supported. Each site still needs its own activation on the licence if you use Pro updates."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:104
+msgid "How accurate are the numbers?"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:105
+msgid "They follow the rate file shipped with the plugin, or a file you import later. Income tax uses federal and provincial brackets, basic personal amounts, and the CPP, CPP2, EI, QPP, and QPIP amounts in that file. They are estimates for a conversation, not a assessed return."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:108
+msgid "How do rate updates work?"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:109
+msgid "Lite ships the rates in the plugin. A new tax year arrives when you update the plugin from WordPress.org. You can also import a file under Calculators, Rates. A remote download stays off until you opt in on that screen, and it sends no calculator inputs. Pro, with a saved licence key, checks accountantsexpert.com once a day. A failed signature or checksum leaves the bundled rates in place."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:112
+msgid "Can I replace a rate myself?"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:113
+msgid "Yes. Calculators, Rates exports the current file and imports a replacement. An override you saved stays in place if a later file touches the same value, and the screen tells you when that happens."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:116
+msgid "Does it send calculator inputs to Google?"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:117
+msgid "No, unless you save a Google measurement id. With that field empty, nothing is sent to Google. The arithmetic does not leave the browser."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:120
+msgid "What about email and PDF?"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:121
+msgid "Both stay off until you enable them. A visitor has to submit the form before an email is sent or a PDF is requested. The calculation itself is not that submission."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:124
+msgid "What does the site store?"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:125
+msgid "A view count on your own site. Leads, if you turn the form on, are stored in your database and can be deleted on a schedule you set. Calculator inputs used only for the estimate are not posted to Accountants Expert."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:128
+msgid "What does Lite include?"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:129
+msgid "Three calculators: Canadian income tax, GST, HST, PST and QST, and a mortgage payment. The styling shipped with the plugin. The rate file in the zip. Lite does not include payroll, corporate, savings, or property tools, white-label, a site-count licence, or a Pro download."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:132
+msgid "Is Lite a trial that locks features?"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:133
+msgid "No. Lite is the free plugin. Pro tools are not hidden inside it. Limits are the tools Lite simply does not include. Upgrade prompts appear in wp-admin only, and a visitor never sees them."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:136
+msgid "How do I upgrade from inside the plugin?"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:137
+msgid "Open Calculators, Account and upgrade. Plans and any active coupon come from the store. Buy sends this site address and the receipt email only after you check the consent box, then opens Stripe Checkout and returns to the plugin."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:140
+msgid "Will Lite install Pro for me?"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:141
+msgid "No. After you buy, open My Account on accountantsexpert.com, download the Pro zip, and upload it under Plugins, Add New. Paste the licence key into Pro."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:144
+msgid "How many sites does a plan cover?"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:145
+msgid "Personal is 1 site, Professional is 5, and Agency is 25. Lite itself is not limited by a site-count licence. The count applies to Pro updates and support."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:148
+msgid "How do I activate or remove a site?"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:149
+msgid "Pro shows the sites on the licence. My Account on accountantsexpert.com is where you activate or deactivate this site, see invoices, and change the plan. The plugin stores the licence key locally and does not print it back."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:152
+msgid "When does a plan renew?"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:153
+msgid "On the renewal date shown in Pro and in My Account. Monthly, quarterly, and yearly prices are the amounts Stripe charges for that period. You can turn renewal off. Access continues until the period you already paid for ends."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:156
+msgid "Can I cancel, and is unused time refunded?"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:157
+msgid "You can cancel renewal at any time from My Account. Cancellation stops the next charge. Unused time in a period you already paid for is not refunded, except where the law requires it."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:160
+msgid "Do coupons work?"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:161
+msgid "Yes, when the store has an active coupon. The upgrade screen and the pricing page list coupons that have banner text and are still inside their dates and redemption cap. An empty list means there is no public promotion. You can still type a code at checkout."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:164
+msgid "What does support cover?"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:165
+msgid "Pro support and updates run while the licence is active or in grace. Lite is the free plugin. Support for a paid plan is from the store, at the address in My Account. The calculators keep running if a subscription lapses. A lapsed licence pauses updates and support. It does not switch the installed code off."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:168
+msgid "What is white-label?"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:169
+msgid "Professional and Agency can hide the licence key, plan, and upgrade screens from users who are not on an allow list. Personal does not include white-label. Lite does not include it."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:172
+msgid "Which languages ship with Lite?"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:173
+msgid "English, French (Canada), and Spanish. The calculators use the language of the WordPress site when a translation is installed."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:176
+msgid "Does the form fit a phone?"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:177
+msgid "Yes. The calculator form fits a narrow screen. The gallery includes an income-tax view at phone width. That is the layout that was checked, not a separate mobile app."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:180
+msgid "Where do I paste the licence key?"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:181
+msgid "In Pro, on the licence screen. Leave the licence server empty on the store itself. On a customer site, set it to https://accountantsexpert.com. The key is saved on that site and is not shown in the page source afterwards."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:184
+msgid "What happens if I do not enter a licence?"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:185
+msgid "Pro calculators still run. Updates and support stay paused until the licence is active or in grace. Lite never asks for a key."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:188
+msgid "How do I pay?"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:189
+msgid "Stripe Checkout. You can pay by card, and by Apple Pay or Google Pay where Stripe offers them. Accountants Expert does not store card numbers. Prices are in Canadian dollars."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:192
+msgid "How does Quebec work?"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:193
+msgid "Income tax includes the federal abatement and the Quebec workers deduction. Sales tax can show QST. Payroll tools, on Professional and Agency, use RRQ, RQAP, and the Quebec withholding table where that calculator has a row. The salary-versus-dividend table does not include Quebec."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:196
+msgid "Does land transfer tax include Toronto?"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:197
+msgid "Land transfer tax is a Pro tool. British Columbia and Ontario use the brackets in the file. A Toronto checkbox adds the municipal tax. Manitoba, New Brunswick, Nova Scotia, and Prince Edward Island use a rate you type. Quebec uses brackets you type. A blank rate means no tax is added."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:200
+msgid "Is this affiliated with the CRA?"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:201
+msgid "No. BOMCAS Canada builds the plugin. It is not the Canada Revenue Agency, and it is not a tax filing service."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:204
+msgid "Who makes it?"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:205
+msgid "BOMCAS Canada, owned by Dellendo Farquharson. The product name is BOMCAS Tax Calculators – Canada. The store is accountantsexpert.com."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:215
+msgid "Canadian income tax"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:215
+#: includes/class-bomcas-listing.php:216
+#: includes/class-bomcas-listing.php:217
+#: includes/class-bomcas-listing.php:219
+#: includes/class-bomcas-listing.php:220
+#: includes/class-bomcas-listing.php:221
+#: includes/class-bomcas-listing.php:222
+msgid "Yes"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:216
+msgid "GST, HST, PST and QST"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:218
+msgid "Canadian payroll and take-home pay"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:218
+#: includes/class-bomcas-listing.php:219
+msgid "No"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:218
+msgid "Professional and Agency"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:219
+msgid "Corporate, savings, property and benefit tools"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:220
+msgid "Rate file you can replace"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:221
+msgid "Block and shortcode"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:222
+msgid "English, French (Canada) and Spanish"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:223
+msgid "Updates and support while the licence is active"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:223
+msgid "Free plugin updates"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:223
+msgid "Licence required"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:224
+msgid "Sites on a paid plan"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:224
+msgid "Not limited by a licence"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:224
+msgid "1, 5 or 25"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:226
+msgid "Lite and Pro"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:227
+msgid "Feature"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:239
+msgid "Alberta, British Columbia, Manitoba, New Brunswick, Newfoundland and Labrador, the Northwest Territories, Nova Scotia, Nunavut, Ontario, Prince Edward Island, Quebec, Saskatchewan, and Yukon."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:243
+msgid "Federal tax plus one province or territory for the year in the rate file. The file shipped with Lite is the 2026 personal tax year. It does not print a paycheque."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:245
+msgid "Place, employment income, self-employment income, other income, eligible dividends, non-eligible dividends, capital gains, one RRSP and FHSA deduction, and tax already deducted. Credits use the CPP, CPP2, and EI amounts in the file, and QPP and QPIP when the place is Quebec."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:246
+msgid "Taxable income, federal tax after credits, provincial or territorial tax after credits, total tax, average rate, marginal rate, and after-tax income. A balance appears when tax already deducted is set. Quebec also shows the workers deduction."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:250
+msgid "GST, HST, PST, or QST on a standard taxable amount. Rate segments in the file run from 2022 through 2026, and the date selects the segment. Vehicles, real property, and exempt supplies are not covered."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:252
+msgid "Place, amount, date, and whether to add tax or remove it from a total."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:253
+msgid "Amount before tax, GST, PST or RST, HST, QST, tax, and the total."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:257
+msgid "A blended payment from the numbers the visitor types. The plugin does not ship a posted mortgage rate."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:258
+msgid "Not tied to a province. Compounding defaults to the Canadian semi-annual fixed-rate convention."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:259
+msgid "Price, down payment, annual interest rate, amortization in years, payments per year (monthly, biweekly, or weekly), and compounding (semi-annual or monthly)."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:260
+msgid "Principal, payment, number of payments, and interest over the amortization."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:269
+msgid "The 13 provinces and territories, where that tool has a rate row for the year."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:272
+msgid "Payroll deductions"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:273
+msgid "CPP, CPP2, EI, and income tax on a regular pay. Quebec uses QPP and QPIP where those amounts are in the payroll file."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:275
+msgid "Province or territory, pay, and the pay frequency the payroll screen asks for."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:276
+msgid "The deductions and the net pay for that period. It is an estimate, not a source deduction."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:279
+msgid "Salary after tax"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:280
+msgid "Take-home pay after tax, CPP, and EI for the year in the payroll file."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:282
+msgid "Province or territory and salary."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:283
+msgid "Tax, payroll contributions, and the amount left."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:286
+msgid "Quebec withholding"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:287
+msgid "Quebec income tax withheld on a paycheque."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:288
+#: includes/class-bomcas-listing.php:442
+msgid "Quebec."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:289
+msgid "The pay fields on that screen."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:290
+msgid "The Quebec withholding estimate."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:293
+msgid "Self-employed CPP"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:294
+msgid "CPP on self-employment income."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:296
+msgid "Province or territory and self-employment income."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:297
+msgid "The contribution estimate."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:300
+msgid "Employer health tax"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:301
+msgid "Payroll tax for the provinces that have a row in the rate file. British Columbia uses a notch. Ontario phases an exemption out and then uses a rate band. Manitoba uses a notch. Newfoundland and Labrador taxes payroll above an exemption."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:302
+msgid "British Columbia, Manitoba, Newfoundland and Labrador, and Ontario. A province that is not in the file is not estimated."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:303
+msgid "Province and payroll for the years the screen lists."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:304
+msgid "The tax for the years that have a rate row."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:307
+msgid "EI benefits"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:308
+msgid "A regular benefit from weekly insurable earnings, up to the maximum for the year you pick. The rate comes from the household file."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:309
+msgid "The EI year rows in the rate file. Not a provincial benefit."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:310
+msgid "Year and average weekly insurable earnings."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:311
+msgid "The regular benefit estimate."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:314
+msgid "Canada child benefit"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:315
+msgid "The federal benefit for the period named in the rate file. Provincial and territorial child benefits are not added."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:316
+msgid "Federal. Shared custody uses half of the benefit when that box is checked."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:317
+msgid "Adjusted family net income, children under 6, children aged 6 to 17, and shared custody."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:318
+msgid "The federal benefit estimate."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:322
+msgid "Federal and provincial tax on active business income, using the small-business and general rates in the file. Quebec small-business tax stays at zero unless you confirm the corporation already qualifies. The hours and sector tests are not calculated."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:323
+msgid "All 13 provinces and territories have a 2026 row. Some provinces also have earlier years in the file."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:324
+msgid "Province or territory, active business income, and the taxation-year start used for Quebec."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:325
+msgid "Federal tax, provincial tax, and the combined estimate."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:328
+msgid "Salary versus dividend"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:329
+msgid "Compares salary with a non-eligible dividend using the gross-up and the dividend tax credits in the file. The dividend table is labelled as the 2025 tax year."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:330
+msgid "Alberta, British Columbia, Manitoba, New Brunswick, Newfoundland and Labrador, Nova Scotia, the Northwest Territories, Nunavut, Ontario, Prince Edward Island, Saskatchewan, and Yukon. Quebec is not in that dividend table."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:331
+msgid "Province or territory and the amount to compare."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:332
+msgid "The salary result and the dividend result side by side."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:335
+msgid "Capital cost allowance"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:336
+msgid "CCA for the class and cost you enter. Before 2024 the first-year base is one and a half times the addition. For 2024 to 2027 the half-year rule is suspended. From 2028 it returns. Classes 54, 55, and 56 are not offered."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:337
+msgid "Classes 8, 10, 10.1, 43, and 50. Class 10.1 uses the ceiling in the rate file."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:338
+msgid "Class, cost, and the year."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:339
+msgid "The allowance for that year."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:342
+msgid "Capital gains"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:343
+msgid "Tax on a capital gain. The inclusion rate is the one in the rate file, applied to the gain, then taxed with your other income and your province. A principal residence is not included."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:344
+msgid "Federal inclusion, plus the provincial tax tables used by the income-tax estimate."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:345
+msgid "Province, capital gain, and other income."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:346
+msgid "The taxable portion and the tax estimate."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:349
+msgid "Tax instalments"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:350
+msgid "Whether personal instalments are required. The file uses a $3,000 threshold, or $1,800 for Quebec, and the dates 15 March, 15 June, 15 September, and 15 December."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:351
+msgid "Personal instalments. Quebec uses the lower threshold in the file."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:352
+msgid "Province and the net-tax amounts the screen asks for."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:353
+msgid "Whether instalments apply, and the quarterly dates."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:356
+msgid "CRA penalty and interest"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:357
+msgid "A late-filing penalty and prescribed interest. The file includes the 2026 prescribed-rate quarters."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:358
+msgid "The quarters present in the prescribed-rate file."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:359
+msgid "Balance, due date, filing date, and payment date."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:360
+msgid "The penalty and the interest estimate."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:363
+msgid "Donations"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:364
+msgid "The federal and provincial credit on a gift, using the donation rates for the province."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:365
+msgid "The provinces present in the donation-rate table."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:366
+msgid "Province, donations, and taxable income."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:367
+msgid "The credit estimate."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:370
+msgid "Car allowance"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:371
+msgid "The prescribed cents-per-kilometre amount. Provinces share one pair of rates. The territories use a higher pair."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:372
+msgid "One rate pair for the provinces and one pair for Yukon, the Northwest Territories, and Nunavut."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:373
+msgid "Year, business kilometres, and whether the travel is in a territory."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:374
+msgid "The allowance amount."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:377
+msgid "Vehicle purchase"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:378
+msgid "Tax on a dealer sale or a private purchase. A dealer sale uses the sales-tax rates. A private sale uses the provincial private-sale rule in the file."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:379
+msgid "The provinces and territories that have a vehicle row. British Columbia also asks for passenger or non-passenger."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:380
+msgid "Who is selling, price, province, body type where it applies, and the fee and financing fields that are shown."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:381
+msgid "The tax and the amount due."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:384
+msgid "Lease or buy"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:385
+msgid "Compares leasing a vehicle with buying it from the payments, term, and tax you enter."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:386
+msgid "Uses the sales-tax rates for the province you pick. It is not a lender quote."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:387
+msgid "Province and the lease and purchase fields on the screen."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:388
+msgid "The two totals side by side."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:391
+msgid "Mortgage stress-test payment"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:392
+msgid "The stress-test payment and the common debt-service limits from the income, debts, price, and rate you type. It does not approve a mortgage."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:393
+msgid "Not a provincial tax. The qualifying rate is the one you type or the floor in the rate file, whichever the screen uses."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:394
+msgid "Income, debts, price, down payment, and rate."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:395
+msgid "The stress-test payment and the debt-service ratios."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:398
+msgid "CMHC insurance"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:399
+msgid "The mortgage insurance premium from the down payment, using the premium bands in the rate file, including the homebuyer band when that box applies."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:400
+msgid "The premium table in the file. It is not a CMHC approval."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:401
+msgid "Price, down payment, and whether the homebuyer band applies."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:402
+msgid "The premium and the insured mortgage."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:405
+msgid "Land transfer tax"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:406
+msgid "Property transfer tax. British Columbia and Ontario use the brackets in the file. Toronto adds the municipal tax when that box is checked. Manitoba, New Brunswick, Nova Scotia, and Prince Edward Island use a rate you type. Quebec uses brackets you type. If those boxes are blank, no tax is shown."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:407
+msgid "British Columbia and Ontario have built-in brackets. The other provinces named above need a rate you supply. A province with no rule is not estimated."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:408
+msgid "Price or value, registration date, first-time buyer, and the province boxes that appear: residential value over $3 million in British Columbia, single-family and Toronto in Ontario, a typed rate in Manitoba, New Brunswick, Nova Scotia, and Prince Edward Island, or typed brackets in Quebec."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:409
+msgid "The transfer tax."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:412
+msgid "RRSP room"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:413
+msgid "Room from last year’s earned income and the dollar limit in the rate file, minus a pension adjustment you type. Other adjustments on a notice of assessment are not included."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:414
+msgid "The RRSP rate and dollar limit in the household file."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:415
+msgid "Year, earned income last year, and pension adjustment."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:416
+msgid "The deduction limit from those inputs."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:419
+msgid "TFSA room"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:420
+msgid "Adds the annual limits for the years you choose, then adds last year’s withdrawals and subtracts this year’s contributions."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:421
+msgid "The annual limits in the household file."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:422
+msgid "First year, last year, withdrawals last year, and contributions already made this year."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:423
+msgid "The room from those years and amounts."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:426
+msgid "FHSA"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:427
+msgid "How much you can still put in a first home savings account. The first year uses the annual amount in the file. Later years can include unused room up to that same annual amount, and the lifetime limit in the file caps the total."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:428
+msgid "The FHSA amounts in the household file."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:429
+msgid "Whether this is the year the account was opened, unused room from last year, and the amount already contributed this year."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:430
+msgid "The room still available."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:433
+msgid "Old Age Security"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:434
+msgid "The recovery tax when income is above the threshold in the rate file. The repayment is capped at the pension you enter."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:435
+msgid "The OAS threshold for the year you pick."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:436
+msgid "Year, net income, and OAS pension received."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:437
+msgid "The recovery tax."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:440
+msgid "Quebec welcome tax"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:441
+msgid "The municipal welcome tax on a Quebec property transfer, from the brackets in the household file."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:443
+msgid "Year, price in the deed, and municipal market value if it is higher."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:444
+msgid "The welcome tax."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:453
+msgid "Shortcodes, blocks, and settings"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:454
+msgid "Lite accepts two attributes. id chooses the calculator. province is a two-letter code and is optional. Income tax and sales tax default to British Columbia. The ids are income-tax, sales-tax, and mortgage-payment."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:470
+msgid "The block BOMCAS Tax Calculators – Canada (bomcas/calculator) has the attributes calculator and province. A second block, bomcas/calculator-any, has the same two attributes and renders the same shortcode. Elementor, Divi, and Beaver Builder widgets register only when that builder is active."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:471
+msgid "Pro place pages use bomcas_place. tool is the calculator id, code is the province or territory, and part is all or a section of the guide. bomcas_custom runs a formula you save in Pro. The allowed functions are fed_tax, prov_tax, sales_tax, and payroll. bomcas_compare takes two province codes. bomcas_pack publishes a set of pages. The pack ids are realtor, dealer, payroll, advisor, ecommerce, lawyer, immigration, and blogger."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:472
+msgid "Display, rates, and privacy"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:475
+msgid "Each field has a label. Currency and percent marks are hidden from assistive technology so the number is read once. The result is a definition list."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:476
+msgid "The layout fits a phone. The same page is the one a search engine can index, because the guide is ordinary HTML."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:477
+msgid "The arithmetic is a small script on the page. It does not call another website to get the result."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:478
+msgid "English, French (Canada), and Spanish (US) are included. Amounts follow that locale. French pages name RRQ, RQAP, and TVQ."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:479
+msgid "Calculators, Rates imports or exports a year file. The next view uses the new numbers. You can turn a calculator or a whole country off."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:480
+msgid "An optional credit line stays off until you save it. Page text you wrote under Calculators, Page content is left alone."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:481
+msgid "Typed values stay in the browser. A view count is saved on your own site. Nothing is sent to Google unless you save a measurement id, and then one event is sent when a calculation runs."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:482
+msgid "Email and PDF run only after the visitor submits the optional form. Pro can also print or save a PDF from the button on the calculator."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:483
+msgid "Professional and Agency plans record a white-label flag. The privacy screen can hide the licence screens from people who are not on the allow list."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:489
+msgid "Licence tiers"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:490
+msgid "Lite has no licence and no site cap. Pro is billed in Canadian dollars. Personal covers 1 site, Professional covers 5 sites, and Agency covers 25 sites. Monthly, quarterly, and yearly prices are on the pricing page. While the licence is active or in the grace period, Pro can check for updates. Support for that plan runs for the same period. Cancelling stops the next renewal. Access lasts until the period already paid for ends. A copy you already installed keeps running."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:498
+msgid "What you can use it for"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:499
+msgid "The calculator answers a question the visitor already has, on your page. It does not replace a signed engagement, a mortgage approval, or a payroll filing."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:501
+msgid "Accounting and tax firms"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:501
+msgid "Put income tax or sales tax on a service page so a prospect sees the scope before they write to you."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:502
+msgid "Bookkeepers"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:502
+msgid "Use sales tax and, with Pro, payroll on a client resource page."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:503
+msgid "Payroll providers"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:503
+msgid "Professional and Agency include payroll deductions and take-home pay. Personal does not. None of them file a remittance."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:504
+msgid "Financial advisors"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:504
+msgid "Pro RRSP, TFSA, FHSA, and capital gains give a meeting a starting number. They are not a financial plan."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:505
+msgid "Mortgage brokers and realtors"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:505
+msgid "The mortgage payment, and Pro land transfer tax and CMHC premium, sit on a listing or a pre-approval page."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:506
+msgid "HR, recruiting, and job boards"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:506
+msgid "Salary after tax, in Pro, and the Lite paycheck show what a posted salary means after tax."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:507
+msgid "Banks and credit unions"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:507
+msgid "A payment or sales-tax estimate on a product page, with your own contact path beside it."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:508
+msgid "Finance writers and news sites"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:508
+msgid "A tool page that stays useful after the article is published, and that other sites can link to."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:509
+msgid "Non-profits"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:509
+msgid "The donations credit, in Pro, next to a giving page. It is not a charitable receipt."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:510
+msgid "Government and education"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:510
+msgid "A classroom or public-information page that shows how a rate is applied, with the source link under the result."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:511
+msgid "Employer intranets"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:511
+msgid "Payroll and the car allowance, in Pro, on an internal page. The numbers still stay an estimate."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:516
+msgid "Where to put it"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:519
+msgid "A service page, under the description of the work you do."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:520
+msgid "A blog post that explains one tax, with the calculator under the explanation."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:521
+msgid "A landing page aimed at one audience, such as employers or home buyers."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:522
+msgid "A lead page, with the contact or booking link beside the result."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:523
+msgid "A client portal, for people who already work with you."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:524
+msgid "A resource hub that links each calculator to its own address."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:525
+msgid "A sidebar, using the same shortcode with a province already chosen."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:530
+msgid "What changes on the site"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:533
+msgid "People stay on your page instead of leaving for another calculator."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:534
+msgid "The result is a reason to use the contact or booking link next to it."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:535
+msgid "A page that answers a real question can be indexed and linked."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:536
+msgid "The firm name is on the same page as the numbers, which is easier to trust than a tool on someone else’s site."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:537
+msgid "Fewer messages ask for a basic rate that the page already shows."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:549
+msgid "How to use it on your website"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:552
+msgid "Upload the Lite zip from Plugins, Add New, Upload Plugin, or copy the bomcas-tax-calculators-canada folder into wp-content/plugins. Keep that folder name."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:553
+msgid "Activate"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:553
+msgid "Activate BOMCAS Tax Calculators – Canada. Open Calculators, Help, and follow Getting started."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:554
+msgid "Add it"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:554
+msgid "Insert the BOMCAS Tax Calculators – Canada block, or paste a shortcode. Set the calculator id and, if you want, the province."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:555
+msgid "Configure"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:555
+msgid "Choose the language, turn tools on or off, and import a rate file when the year changes. Leave the Google measurement id empty if you do not want that event."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:556
+msgid "Upgrade"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:556
+msgid "Install Pro, then paste the licence key from your Accountants Expert account. Personal, Professional, and Agency set the site count. Updates run while the licence is active or in grace."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:564
+msgid "Example pages"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:567
+msgid "An income-tax page for Ontario: the shortcode with province ON, a short note that the result is an estimate, and a link to book a review."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:568
+msgid "A GST page for a shop: sales tax with the province already set, and the direction left on Add tax."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:569
+msgid "A recruiter page: Pro salary after tax under a salary band, with the application link beside it."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:570
+msgid "A home-buyer page: the mortgage payment, plus Pro land transfer tax where the province is British Columbia or Ontario."
+msgstr ""
+
+#: includes/class-bomcas-listing.php:582
+msgid "Questions"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:601
+msgid "Covers"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:602
+msgid "Inputs"
+msgstr ""
+
+#: includes/class-bomcas-listing.php:603
+msgid "Outputs"
+msgstr ""
+
+#: includes/class-bomcas-packs.php:52
+msgid "Mortgage and property tax calculators"
+msgstr ""
+
+#: includes/class-bomcas-packs.php:54
+#: includes/class-bomcas-stats.php:230
+msgid "Book a pre-approval conversation"
+msgstr ""
+
+#: includes/class-bomcas-packs.php:55
+msgid "Estimate a payment, a land transfer tax and take-home pay before the showing. The figures stay an estimate."
+msgstr ""
+
+#: includes/class-bomcas-packs.php:58
+msgid "Vehicle tax calculators for dealers"
+msgstr ""
+
+#: includes/class-bomcas-packs.php:60
+msgid "Ask for a quote"
+msgstr ""
+
+#: includes/class-bomcas-packs.php:61
+msgid "Show the sales tax on a vehicle and let the shopper email the estimate to the desk."
+msgstr ""
+
+#: includes/class-bomcas-packs.php:64
+msgid "Paycheck calculators for HR"
+msgstr ""
+
+#: includes/class-bomcas-packs.php:66
+#: includes/class-bomcas-stats.php:231
+msgid "Talk to payroll"
+msgstr ""
+
+#: includes/class-bomcas-packs.php:67
+msgid "A Canadian pay estimate. Quebec uses RRQ, RQAP and TVQ where those taxes apply."
+msgstr ""
+
+#: includes/class-bomcas-packs.php:70
+msgid "Savings calculators for advisors"
+msgstr ""
+
+#: includes/class-bomcas-packs.php:72
+msgid "Book a review"
+msgstr ""
+
+#: includes/class-bomcas-packs.php:73
+msgid "RRSP, TFSA, FHSA and capital gains estimates for a planning meeting. They are not a financial plan."
+msgstr ""
+
+#: includes/class-bomcas-packs.php:76
+msgid "Sales tax estimate for shops"
+msgstr ""
+
+#: includes/class-bomcas-packs.php:78
+msgid "Contact the shop"
+msgstr ""
+
+#: includes/class-bomcas-packs.php:79
+msgid "An educational sales-tax estimate. It does not file a return and it is not a checkout tax service."
+msgstr ""
+
+#: includes/class-bomcas-packs.php:82
+msgid "Tax calculators for law firms"
+msgstr ""
+
+#: includes/class-bomcas-packs.php:84
+msgid "Book a consult"
+msgstr ""
+
+#: includes/class-bomcas-packs.php:85
+msgid "Land transfer and capital gains estimates for a client meeting. They are not a legal opinion."
+msgstr ""
+
+#: includes/class-bomcas-packs.php:88
+msgid "Take-home calculators for consultants"
+msgstr ""
+
+#: includes/class-bomcas-packs.php:90
+msgid "Book a consultation"
+msgstr ""
+
+#: includes/class-bomcas-packs.php:91
+msgid "A take-home estimate by province or territory. This is not an immigration assessment and it does not score an application."
+msgstr ""
+
+#: includes/class-bomcas-packs.php:94
+msgid "Tax calculators for articles"
+msgstr ""
+
+#: includes/class-bomcas-packs.php:96
+msgid "Read the guide"
+msgstr ""
+
+#: includes/class-bomcas-packs.php:97
+msgid "Put a calculator in an article. Readers can email themselves the estimate if you turn the lead form on."
+msgstr ""
+
+#: includes/class-bomcas-packs.php:141
+msgid "Calculators · Packs"
+msgstr ""
+
+#: includes/class-bomcas-packs.php:142
+msgid "Landing pages"
+msgstr ""
+
+#: includes/class-bomcas-packs.php:143
+msgid "Publishing a pack adds a landing page. It does not disable calculators you already use."
+msgstr ""
+
+#: includes/class-bomcas-packs.php:150
+msgid "Pack"
+msgstr ""
+
+#: includes/class-bomcas-packs.php:150
+msgid "Tools"
+msgstr ""
+
+#: includes/class-bomcas-packs.php:155
+msgid "Publish selected packs"
+msgstr ""
+
+#: includes/class-bomcas-packs.php:165
+msgid "You cannot publish packs."
+msgstr ""
+
+#: includes/class-bomcas-rates-admin.php:35
+#: includes/class-bomcas-rates-admin.php:36
+msgid "Rates & Tax Data"
+msgstr ""
+
+#: includes/class-bomcas-rates-admin.php:54
+msgid "A critical rate update is available on Rates & Tax Data. Calculators keep using your overrides."
+msgstr ""
+
+#: includes/class-bomcas-rates-admin.php:72
+msgid "Rate tools are hidden"
+msgstr ""
+
+#: includes/class-bomcas-rates-admin.php:72
+msgid "White-label is on for this user. Overrides and imports stay off this screen."
+msgstr ""
+
+#: includes/class-bomcas-rates-admin.php:106
+msgid "Pick a country, a jurisdiction, a rate type, and a tax year. The table shows only that slice. Export it, or import a file after the dry-run lists any row errors."
+msgstr ""
+
+#: includes/class-bomcas-rates-admin.php:107
+msgid "Calculators · Rates and overrides"
+msgstr ""
+
+#: includes/class-bomcas-rates-admin.php:115
+msgid "Rate version"
+msgstr ""
+
+#. translators: 1: version, 2: date
+#: includes/class-bomcas-rates-admin.php:119
+#, php-format
+msgid "Signed pack %1$s, saved %2$s. A failed check returns the calculators to the rates shipped in the plugin."
+msgstr ""
+
+#. translators: 1: version, 2: date
+#: includes/class-bomcas-rates-admin.php:119
+msgid "Using the rates shipped in the plugin. No signed pack is saved."
+msgstr ""
+
+#: includes/class-bomcas-rates-admin.php:121
+msgid "Pro checks accountantsexpert.com once a day when a licence key is saved. The request sends that key. The signature and checksum must match, or the bundled rates stay in use."
+msgstr ""
+
+#: includes/class-bomcas-rates-admin.php:123
+msgid "Lite receives a new tax year in a plugin update from WordPress.org. A remote download stays off until you opt in below. Opting in sends no calculator inputs and no licence key."
+msgstr ""
+
+#. translators: %s: error code
+#: includes/class-bomcas-rates-admin.php:126
+#, php-format
+msgid "Last check: %s."
+msgstr ""
+
+#: includes/class-bomcas-rates-admin.php:131
+msgid "Update now"
+msgstr ""
+
+#: includes/class-bomcas-rates-admin.php:134
+msgid "BOMCAS updated a value you had overridden. Your override is still active."
+msgstr ""
+
+#: includes/class-bomcas-rates-admin.php:143
+#: includes/class-bomcas-trust.php:480
+msgid "Country"
+msgstr ""
+
+#: includes/class-bomcas-rates-admin.php:144
+msgid "Jurisdiction"
+msgstr ""
+
+#: includes/class-bomcas-rates-admin.php:144
+msgid "BC, CA, FED"
+msgstr ""
+
+#: includes/class-bomcas-rates-admin.php:145
+msgid "Rate type"
+msgstr ""
+
+#: includes/class-bomcas-rates-admin.php:150
+msgid "Federal"
+msgstr ""
+
+#: includes/class-bomcas-rates-admin.php:155
+msgid "Tax year"
+msgstr ""
+
+#: includes/class-bomcas-rates-admin.php:157
+msgid "Show this slice"
+msgstr ""
+
+#. translators: %s: a name, amount, count, or year.
+#: includes/class-bomcas-rates-admin.php:163
+#, php-format
+msgid "Export %s"
+msgstr ""
+
+#: includes/class-bomcas-rates-admin.php:166
+msgid "Download blank template"
+msgstr ""
+
+#. translators: %s: a name, amount, count, or year.
+#: includes/class-bomcas-rates-admin.php:170
+#, php-format
+msgid "Dry run: %1$d rows ready, %2$d errors."
+msgstr ""
+
+#: includes/class-bomcas-rates-admin.php:179
+msgid "Import CSV, JSON, or XLSX"
+msgstr ""
+
+#: includes/class-bomcas-rates-admin.php:180
+msgid "Dry run"
+msgstr ""
+
+#: includes/class-bomcas-rates-admin.php:182
+msgid "Apply as overrides"
+msgstr ""
+
+#: includes/class-bomcas-rates-admin.php:187
+msgid "Show “Rates last updated” on calculators"
+msgstr ""
+
+#: includes/class-bomcas-rates-admin.php:189
+msgid "Opt in to download rate updates from the address below. Off leaves this site on the copy shipped in the plugin."
+msgstr ""
+
+#: includes/class-bomcas-rates-admin.php:191
+msgid "Rate server"
+msgstr ""
+
+#: includes/class-bomcas-rates-admin.php:192
+msgid "Publisher public key"
+msgstr ""
+
+#: includes/class-bomcas-rates-admin.php:192
+msgid "Saved. Paste a replacement to change it."
+msgstr ""
+
+#: includes/class-bomcas-rates-admin.php:192
+msgid "Paste the PEM public key"
+msgstr ""
+
+#: includes/class-bomcas-rates-admin.php:193
+msgid "Value"
+msgstr ""
+
+#: includes/class-bomcas-rates-admin.php:193
+msgid "System"
+msgstr ""
+
+#: includes/class-bomcas-rates-admin.php:193
+#: includes/class-bomcas-rates-admin.php:208
+msgid "Source"
+msgstr ""
+
+#: includes/class-bomcas-rates-admin.php:193
+msgid "Verified"
+msgstr ""
+
+#: includes/class-bomcas-rates-admin.php:193
+msgid "Override"
+msgstr ""
+
+#: includes/class-bomcas-rates-admin.php:212
+msgid "Keep"
+msgstr ""
+
+#: includes/class-bomcas-rates-admin.php:213
+msgid "Use new value"
+msgstr ""
+
+#: includes/class-bomcas-rates-admin.php:218
+msgid "Save overrides"
+msgstr ""
+
+#: includes/class-bomcas-rates-admin.php:219
+msgid "Reset all overrides in this dataset"
+msgstr ""
+
+#: includes/class-bomcas-rates-admin.php:222
+msgid "Export and import"
+msgstr ""
+
+#: includes/class-bomcas-rates-admin.php:227
+msgid "Paste an override export"
+msgstr ""
+
+#: includes/class-bomcas-rates-admin.php:228
+msgid "Import overrides"
+msgstr ""
+
+#: includes/class-bomcas-rates-admin.php:242
+msgid "You cannot change rates."
+msgstr ""
+
+#: includes/class-bomcas-rates-admin.php:325
+msgid "You cannot update rates."
+msgstr ""
+
+#: includes/class-bomcas-rates-admin.php:420
+msgid "You cannot export rates."
+msgstr ""
+
+#: includes/class-bomcas-rates-admin.php:479
+msgid "You cannot import rates."
+msgstr ""
+
+#: includes/class-bomcas-stats.php:140
+msgid "Calculators · Usage"
+msgstr ""
+
+#: includes/class-bomcas-stats.php:141
+msgid "On this site"
+msgstr ""
+
+#: includes/class-bomcas-stats.php:142
+msgid "Counts stay in this site. A GA4 measurement id is optional and is the only external event push."
+msgstr ""
+
+#: includes/class-bomcas-stats.php:149
+msgid "Views"
+msgstr ""
+
+#: includes/class-bomcas-stats.php:153
+msgid "Calculations"
+msgstr ""
+
+#: includes/class-bomcas-stats.php:166
+msgid "Top calculators"
+msgstr ""
+
+#: includes/class-bomcas-stats.php:172
+msgid "No counts yet."
+msgstr ""
+
+#: includes/class-bomcas-stats.php:175
+msgid "Optional analytics"
+msgstr ""
+
+#: includes/class-bomcas-stats.php:178
+msgid "GA4 measurement id"
+msgstr ""
+
+#: includes/class-bomcas-stats.php:178
+msgid "Leave empty and nothing is sent to Google. A saved id adds one event when a calculation runs."
+msgstr ""
+
+#: includes/class-bomcas-stats.php:179
+msgid "Save usage settings"
+msgstr ""
+
+#: includes/class-bomcas-stats.php:189
+msgid "You cannot edit usage settings."
+msgstr ""
+
+#: includes/class-bomcas-stats.php:218
+#: includes/class-bomcas-stats.php:235
+msgid "Book a time"
+msgstr ""
+
+#: includes/class-bomcas-stats.php:229
+msgid "Book a tax review"
+msgstr ""
+
+#: includes/class-bomcas-stats.php:232
+msgid "Ask about this sale"
+msgstr ""
+
+#: includes/class-bomcas-stats.php:233
+msgid "Ask for a vehicle quote"
+msgstr ""
+
+#: includes/class-bomcas-stats.php:274
+msgid "Calculators · Booking"
+msgstr ""
+
+#: includes/class-bomcas-stats.php:276
+msgid "A button is enough for a Calendly, Cal.com, Acuity or any other URL. An embedded frame is shown when Pro is active."
+msgstr ""
+
+#: includes/class-bomcas-stats.php:283
+msgid "Provider"
+msgstr ""
+
+#: includes/class-bomcas-stats.php:288
+msgid "Custom URL"
+msgstr ""
+
+#: includes/class-bomcas-stats.php:292
+msgid "The provider is a label. The link is the URL you paste."
+msgstr ""
+
+#: includes/class-bomcas-stats.php:293
+msgid "URL"
+msgstr ""
+
+#: includes/class-bomcas-stats.php:293
+msgid "Shown after the estimate. Leave blank to hide the button."
+msgstr ""
+
+#: includes/class-bomcas-stats.php:295
+msgid "Display"
+msgstr ""
+
+#: includes/class-bomcas-stats.php:295
+msgid "Button"
+msgstr ""
+
+#: includes/class-bomcas-stats.php:295
+msgid "Embed (Pro)"
+msgstr ""
+
+#: includes/class-bomcas-stats.php:295
+msgid "Lite always shows a button. Pro can also embed the scheduler."
+msgstr ""
+
+#: includes/class-bomcas-stats.php:297
+msgid "Save booking"
+msgstr ""
+
+#: includes/class-bomcas-stats.php:308
+msgid "You cannot edit booking."
+msgstr ""
+
+#: includes/class-bomcas-tokens.php:96
+msgid "(latest rates on file)"
+msgstr ""
+
+#: includes/class-bomcas-tokens.php:740
+msgid "Tax year in force. Newest dataset year whose effective date is today or earlier, unless you set an override."
+msgstr ""
+
+#: includes/class-bomcas-tokens.php:744
+msgid "Same year. Adds “latest rates on file” when this calendar year is not in the dataset."
+msgstr ""
+
+#: includes/class-bomcas-tokens.php:748
+msgid "Month and year the dataset was last verified."
+msgstr ""
+
+#: includes/class-bomcas-tokens.php:752
+msgid "Date these rates took effect."
+msgstr ""
+
+#: includes/class-bomcas-tokens.php:756
+msgid "Basic personal amount. Replace BC with a province code, or FED."
+msgstr ""
+
+#: includes/class-bomcas-tokens.php:760
+msgid "First bracket rate for that code, written as a percent."
+msgstr ""
+
+#: includes/class-bomcas-tokens.php:764
+msgid "Top bracket rate for that code."
+msgstr ""
+
+#: includes/class-bomcas-tokens.php:768
+msgid "Live engine result. Use CODE.income.AMOUNT.total, federal, or provincial. The amount is the worked input, not a stored answer."
+msgstr ""
+
+#: includes/class-bomcas-tokens.php:772
+msgid "A date from the dataset calendar, such as balance_due or pay_example_on."
+msgstr ""
+
+#: includes/class-bomcas-tokens.php:776
+msgid "Official source title stored on the federal rate file."
+msgstr ""
+
+#: includes/class-bomcas-tokens.php:787
+msgid "Insert a live figure"
+msgstr ""
+
+#: includes/class-bomcas-tokens.php:791
+msgid "Click a field, then a token. The page fills the number from the rate dataset for the year in force. Hover a token for what it means."
+msgstr ""
+
+#. translators: 1: calendar year, 2: dataset year being shown
+#: includes/class-bomcas-tokens.php:900
+#, php-format
+msgid "The rate dataset has no %1$s rates yet. Calculator pages are showing %2$s, the latest year on file, and they say so. Add the new year on Rates & Tax Data. Do not leave a stale year looking current."
+msgstr ""
+
+#: includes/class-bomcas-tokens.php:912
+msgid "You cannot change the tax year."
+msgstr ""
+
+#: includes/class-bomcas-tokens.php:931
+msgid "Year shown on calculator pages"
+msgstr ""
+
+#. translators: 1: year number, 2: year label
+#: includes/class-bomcas-tokens.php:935
+#, php-format
+msgid "Automatic year is %1$s. Pages currently say %2$s. Leave the box empty to keep the newest year whose effective date is today or earlier."
+msgstr ""
+
+#: includes/class-bomcas-tokens.php:943
+msgid "Override year"
+msgstr ""
+
+#: includes/class-bomcas-tokens.php:943
+msgid "Leave empty for the newest year whose effective date is today or earlier."
+msgstr ""
+
+#: includes/class-bomcas-tokens.php:944
+msgid "Save display year"
+msgstr ""
+
+#: includes/class-bomcas-tokens.php:949
+msgid "Repair calculator excerpts in batches of 20. This does not change page bodies, and it leaves an excerpt you edited."
+msgstr ""
+
+#: includes/class-bomcas-tokens.php:950
+msgid "Repair token excerpts"
+msgstr ""
+
+#: includes/class-bomcas-tokens.php:953
+msgid "Managed page titles"
+msgstr ""
+
+#: includes/class-bomcas-tokens.php:955
+msgid "No unedited default titles need tidying."
+msgstr ""
+
+#: includes/class-bomcas-tokens.php:957
+msgid "These managed titles are still a plugin default. A title you renamed, or a search title you saved, is not in this list."
+msgstr ""
+
+#: includes/class-bomcas-tokens.php:965
+msgid "Another administrator is tidying titles. Wait a minute and refresh."
+msgstr ""
+
+#: includes/class-bomcas-tokens.php:970
+msgid "Tidy managed page titles"
+msgstr ""
+
+#: includes/class-bomcas-tokens.php:978
+msgid "The title tidy is locked by another administrator."
+msgstr ""
+
+#. translators: %s: number of titles updated.
+#: includes/class-bomcas-tokens.php:981
+#, php-format
+msgid "Titles updated: %s."
+msgstr ""
+
+#: includes/class-bomcas-tokens.php:1078
+msgid "You cannot tidy page titles."
+msgstr ""
+
+#. translators: %s: a name, amount, count, or year.
+#: includes/class-bomcas-trust.php:60
+#, php-format
+msgid "Last verified: %s. Each source link is the publication used for that row."
+msgstr ""
+
+#: includes/class-bomcas-trust.php:83
+msgid "Report a rate issue"
+msgstr ""
+
+#: includes/class-bomcas-trust.php:86
+msgid "Which rate"
+msgstr ""
+
+#: includes/class-bomcas-trust.php:87
+msgid "What looks wrong"
+msgstr ""
+
+#: includes/class-bomcas-trust.php:88
+msgid "Email, optional"
+msgstr ""
+
+#: includes/class-bomcas-trust.php:89
+msgid "Send report"
+msgstr ""
+
+#: includes/class-bomcas-trust.php:160
+msgid "Rate update changelog"
+msgstr ""
+
+#: includes/class-bomcas-trust.php:162
+msgid "No published rate updates yet."
+msgstr ""
+
+#. translators: %s: a name, amount, count, or year.
+#: includes/class-bomcas-trust.php:214
+#, php-format
+msgid "%1$s compared with %2$s"
+msgstr ""
+
+#: includes/class-bomcas-trust.php:215
+msgid "Difference"
+msgstr ""
+
+#: includes/class-bomcas-trust.php:216
+msgid "First rate"
+msgstr ""
+
+#: includes/class-bomcas-trust.php:318
+msgid "Search help"
+msgstr ""
+
+#: includes/class-bomcas-trust.php:325
+msgid "Video"
+msgstr ""
+
+#: includes/class-bomcas-trust.php:338
+msgid "Turn on the lead form"
+msgstr ""
+
+#: includes/class-bomcas-trust.php:339
+msgid "Calculators, then Leads. The form stays off until you enable it. A visitor is emailed only after consent."
+msgstr ""
+
+#: includes/class-bomcas-trust.php:343
+msgid "Privacy of calculator inputs"
+msgstr ""
+
+#: includes/class-bomcas-trust.php:344
+msgid "Amounts stay in the browser. A result is sent only when someone asks for an email or a PDF. Counts do not include those amounts. This follows PIPEDA, Quebec Law 25 and the CCPA expectation that a sale of personal information is off."
+msgstr ""
+
+#: includes/class-bomcas-trust.php:348
+msgid "Accessibility"
+msgstr ""
+
+#: includes/class-bomcas-trust.php:349
+msgid "Fields have labels, buttons have names, and the report form can be used without a mouse. Automated checks are on the Trust screen. They are not a certification."
+msgstr ""
+
+#: includes/class-bomcas-trust.php:437
+msgid "Calculators · Trust"
+msgstr ""
+
+#: includes/class-bomcas-trust.php:439
+msgid "The verified date is the day the bundled sources were read. Reports go to the publisher queue. Email alerts are off until you opt in."
+msgstr ""
+
+#: includes/class-bomcas-trust.php:446
+msgid "Show last verified on calculators"
+msgstr ""
+
+#: includes/class-bomcas-trust.php:446
+msgid "Prints the date under the source table. Turn it off if you do not want the date on the public page."
+msgstr ""
+
+#: includes/class-bomcas-trust.php:447
+msgid "Last verified"
+msgstr ""
+
+#: includes/class-bomcas-trust.php:447
+msgid "Use the day you checked the official source. Do not invent a date."
+msgstr ""
+
+#: includes/class-bomcas-trust.php:448
+msgid "Report SLA in days"
+msgstr ""
+
+#: includes/class-bomcas-trust.php:448
+msgid "A new report older than this is marked overdue on the publisher queue."
+msgstr ""
+
+#: includes/class-bomcas-trust.php:449
+msgid "Email and show rate alerts for this site"
+msgstr ""
+
+#: includes/class-bomcas-trust.php:449
+msgid "Off by default. Alerts are composed on the licence server and never include visitor amounts."
+msgstr ""
+
+#: includes/class-bomcas-trust.php:450
+msgid "Store short codes for shared results"
+msgstr ""
+
+#: includes/class-bomcas-trust.php:452
+msgid "Save trust settings"
+msgstr ""
+
+#: includes/class-bomcas-trust.php:457
+msgid "Accessibility checks"
+msgstr ""
+
+#: includes/class-bomcas-trust.php:457
+msgid "These checks look for labels, empty buttons and images without alt text. They are not a WCAG 2.2 certificate."
+msgstr ""
+
+#: includes/class-bomcas-trust.php:458
+msgid "Sample markup passed the automated checks."
+msgstr ""
+
+#: includes/class-bomcas-trust.php:474
+msgid "Calculators · Setup"
+msgstr ""
+
+#: includes/class-bomcas-trust.php:475
+msgid "Wizard"
+msgstr ""
+
+#: includes/class-bomcas-trust.php:476
+msgid "Pick a country, leave the credit off unless you want it, then optionally publish an industry template. Templates add a page, a lead form and a booking button."
+msgstr ""
+
+#: includes/class-bomcas-trust.php:480
+#: includes/class-bomcas-trust.php:487
+msgid "Template"
+msgstr ""
+
+#: includes/class-bomcas-trust.php:484
+msgid "Step 1. Country"
+msgstr ""
+
+#: includes/class-bomcas-trust.php:484
+msgid "Choose where this site does most of its work. Calculators for the other country stay available."
+msgstr ""
+
+#: includes/class-bomcas-trust.php:485
+msgid "Country focus"
+msgstr ""
+
+#: includes/class-bomcas-trust.php:485
+msgid "Saved on this site. It does not hide a calculator by itself."
+msgstr ""
+
+#: includes/class-bomcas-trust.php:486
+msgid "Step 2. Industry template"
+msgstr ""
+
+#: includes/class-bomcas-trust.php:486
+msgid "A template publishes a landing page and turns on the lead form."
+msgstr ""
+
+#: includes/class-bomcas-trust.php:487
+msgid "Leave this as None if you only want to save the country."
+msgstr ""
+
+#: includes/class-bomcas-trust.php:487
+msgid "None"
+msgstr ""
+
+#: includes/class-bomcas-trust.php:494
+msgid "Step 3. Booking"
+msgstr ""
+
+#: includes/class-bomcas-trust.php:494
+msgid "Optional link shown after a result. The button wording follows the calculator."
+msgstr ""
+
+#: includes/class-bomcas-trust.php:495
+msgid "Booking URL"
+msgstr ""
+
+#: includes/class-bomcas-trust.php:495
+msgid "Calendly, Cal.com, Acuity, or any other page."
+msgstr ""
+
+#: includes/class-bomcas-trust.php:496
+msgid "Finish setup"
+msgstr ""
+
+#: includes/class-bomcas-trust.php:526
+msgid "You cannot edit trust settings."
+msgstr ""
+
+#: templates/calculator-page.php:25
+msgid "Introduction"
+msgstr ""
+
+#: templates/calculator-page.php:41
+msgid "Calculate now"
+msgstr ""
+
+#: templates/calculator-page.php:46
+msgid "Photo:"
+msgstr ""
+
+#: templates/calculator-page.php:51
+msgid "Breadcrumb"
+msgstr ""
+
+#: templates/calculator-page.php:62
+msgid "Canada Revenue Agency rate tables"
+msgstr ""
+
+#: templates/calculator-page.php:63
+msgid "Rates last updated: {updated}."
+msgstr ""
+
+#: blocks/calculator-any/block.json
+#: blocks/calculator/block.json
+msgctxt "block title"
+msgid "BOMCAS Tax Calculators – Canada"
+msgstr ""
+
+#: blocks/calculator-any/block.json
+msgctxt "block description"
+msgid "Any bundled calculator. Inputs stay in the browser."
+msgstr ""
+
+#: blocks/calculator/block.json
+msgctxt "block description"
+msgid "Canadian income tax, sales tax, or a mortgage payment. Payroll calculators are in the Professional plan, not in this block."
+msgstr ""
